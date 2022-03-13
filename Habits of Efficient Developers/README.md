@@ -1,14 +1,12 @@
-# conference
+# 효율적인 개발자들의 습관
 
-효율적인 개발자들의 습관
-
-[https://youtu.be/9-cyC6O81Bk](https://youtu.be/9-cyC6O81Bk)
+[![Habits of Efficient Developers](https://user-images.githubusercontent.com/72185011/158063126-5b8e377e-215b-4fc1-8f1c-f04b33e2cd2b.png)](https://youtu.be/9-cyC6O81Bk)
 
 비록 열 배 효율(10x)을 내는 개발자가 신화 속 이야기라고 불려 오지만 우리는 모두 더 짧은 시간에 큰 노력 없이 척척 해내는 개발자들이 있다는 거를 알고 있다. 특별한 재능이 필요하다고 생각할 수도 있지만, 다니엘 레브레로는 이 강의를 통해 더욱 효율적인 개발자가 되려면 무엇을 배워야 하는지 알려준다..
 
 # 효율이란?
 
-최소한 [투입](https://terms.naver.com/entry.nhn?docId=512442&ref=y)으로 주어진 또는 기대하는 산출을 얻는 것. **효율적이라는 것은 자원을 낭비하지 않고 최대의 생산성을 달성하는 것을 의미하며, 우리는 개발자로서 그 자원은 보통 시간이며, 효율적이 된다는 것은 일을 빨리하는 것을 의미한다.**
+최소한 투입으로 주어진 또는 기대하는 산출을 얻는 것. **효율적이라는 것은 자원을 낭비하지 않고 최대의 생산성을 달성하는 것을 의미하며, 우리는 개발자로서 그 자원은 보통 시간이며, 효율적이 된다는 것은 일을 빨리하는 것을 의미한다.**
 
 하지만 여기 한가지 빠진 게 있는데. 피터 드러커는 효율적이다는 것은 무언가 빠르게 해결하는 것이 아니라. 효과적으로 우리가 일을 올바르게 처리해서 오늘의 결정이 미래에 우리를 늦추지 않게 하는 게 중요하다고 언급했다.
 
@@ -30,19 +28,19 @@
 
 ### 휴식
 
-![df1aff8395678d11b99b575f0e3b19d5.gif](conference%20b0552/df1aff8395678d11b99b575f0e3b19d5.gif)
+![df1aff8395678d11b99b575f0e3b19d5](https://user-images.githubusercontent.com/72185011/158066853-bc310c01-b7fd-458d-982b-5b5df9ffd20c.gif)
+
 
 우리 모두 알고있고 말안해도 알겠지만. 엄마가 야채 먹으라고 잔소리하는거처럼 굳이 말하고 싶지는 않다. 쉬어라. 
 
 ### 한번에 하나의 일만 끝내라
 
-![[https://innovationmanagement.se/2012/08/14/can-multi-tasking-result-in-more-than-60-longer-project-time/](https://innovationmanagement.se/2012/08/14/can-multi-tasking-result-in-more-than-60-longer-project-time/)](conference%20b0552/Untitled.png)
-
+![Untitled](https://user-images.githubusercontent.com/72185011/158066899-f369a76a-6169-4ff3-b08c-12a25ba7d982.png)
 [https://innovationmanagement.se/2012/08/14/can-multi-tasking-result-in-more-than-60-longer-project-time/](https://innovationmanagement.se/2012/08/14/can-multi-tasking-result-in-more-than-60-longer-project-time/)
 
 한번에 여러가지의 일을 했을때 결과물의 퀄리티는 좋지 않고 시간은 오히려 더 소비가 된다.
 
-![Untitled](conference%20b0552/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/72185011/158066916-40564e82-f3ff-4122-89dd-caf34db2bad2.png)
 
 멀티태스킹이란 한번에 여러가지 일들을 망치는것이다.
 
@@ -60,7 +58,7 @@
 
 우리가 단순 반복하는 수작업들은 지루할뿐만 아니라 오류가 발생하기도 쉽다. 왜 이짓을 계속 하는지 궁금하다. 개발자는 다른 사람들의 일을 자동화 하기 위해 돈을 받는다는것을 생각하면 굉장히 역설적이다. 
 
-![robot-robots.gif](conference%20b0552/robot-robots.gif)
+![robot-robots](https://user-images.githubusercontent.com/72185011/158066922-6b742f33-027c-4b58-99f7-279c790aa645.gif)
 
 개발자에게는 굉장히 빠르게 일을 처리하고 불만 불평하지도 않고 피곤해하지도 않는 로봇군단을 만들어 자동화시킬 힘이 있다. 이런 엄청난 힘이 있음에도 사용하지 않는 게 문제다.
 
@@ -90,7 +88,7 @@
 
 개발환경을 수작업으로 세팅하는건 피하고싶을거다. 개발환경 수동세팅은 개발자뿐만 아니라 팀 전체를 비효율적으로 만든다. 내가 참여한 프로젝트 기획서를 보면 내 관점에서는 이렇게 보인다.
 
-![how-your-computer-works.gif](conference%20b0552/how-your-computer-works.gif)
+![how-your-computer-works](https://user-images.githubusercontent.com/72185011/158066932-7db07344-7ce2-478f-a285-64942e236f0e.gif)
 
 그리고 중요한건 내가 실수하거나 설정 단계를 놓치면 결과는 항상 2일, 3일, 4일의 시간 낭비다.
 
@@ -110,7 +108,7 @@
 
 코드 리뷰를 통해 우리가 하는 코드의 디자인이 어플리케이션에 알맞는지 알 수 있다. 버그가 있으면 팀원 중 한 명이 알려줄 수 있고 지식 공유에도 활용할 수 있다. 그래서 효율적인 개발자들은 자기 코드가 검토 되기를 원한다.
 
-![Untitled](conference%20b0552/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/72185011/158066941-d3279a9b-b3c0-475c-a7de-c2933405c83a.png)
 
 효율적인 개발자는 단순한 코드리뷰을 원하는 게 아니라 작고 될 수 있으면 초기에 리뷰하려 한다.
 
@@ -118,6 +116,7 @@
 
 다른 개발자는 당신의 퍼스널 스택오버플로가 되어 줄 수도 있다. 왜냐하면, 이미 이 전에 비슷한 문제를 해결한 경험이 있고 해결 방법도 알고 있기 때문이다. 가끔은 질문을 할 필요도 없이 뭘 원하는지 알아차린다.
 
-> 언제나 멈춰서 내가 어떻게 일하고 있는는지 돌아봐라, 그리고 절때 배움을 멈추지마라
--Daniel Lebrero, WeAreDeveloper 2018, “**Habits of Efficient Developers”**
+> 언제나 멈춰서 내가 어떻게 일하고 있는는지 돌아봐라, 
+> 그리고 절때 배움을 멈추지마라
+> -Daniel Lebrero, “**Habits of Efficient Developers”**
 >
