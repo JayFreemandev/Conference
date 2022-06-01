@@ -25,12 +25,11 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 (A Netflix Guide to Microservices)](https://github.com/JayFreemandev/Conference/blob/main/Habits%20of%20Efficient%20Developers/README.md)**
 [![A Netflix Guide to Microservices](https://user-images.githubusercontent.com/72185011/171405373-24027b6d-b266-438e-90a4-00d8b4442f80.png)]([https://youtu.be/9-cyC6O81Bk](https://www.youtube.com/watch?v=V_oxbj-a1wQ))
 
-열 배 효율(10x)을 내는 개발자가 신화 속 이야기라고 불려 오지만 우리는 모두 더 짧은 시간에 큰 노력 없이 척척 해내
-=는 개발자들이 존재한다는걸 알고있다. 여기에 특별한 재능이 필요하다고 생각할 수도 있지만, 다니엘 레브레로는 이 강의를 통해 더욱 효율적인 개발자가 되려면 무엇을 배워야 하는지 알려준다.
+열 배 효율(10x)을 내는 개발자가 신화 속 이야기라고 불려 오지만 우리는 모두 더 짧은 시간에 큰 노력 없이 척척 해내는 개발자들이 존재한다는걸 알고있다. 여기에 특별한 재능이 필요하다고 생각할 수도 있지만, 다니엘 레브레로는 이 강의를 통해 더욱 효율적인 개발자가 되려면 무엇을 배워야 하는지 알려준다.
 
 ### June
 **[토스 서비스를 구성하는 서버 기술  
-(Server technology of TOSS)](https://github.com/JayFreemandev/Conference/blob/main/Habits%20of%20Efficient%20Developers/README.md)**
-[![토스 서비스를 구성하는 서버 기술](https://user-images.githubusercontent.com/72185011/171406057-7efc8e97-2d4c-4492-8f11-ec905f097514.png)]([https://youtu.be/9-cyC6O81Bk](https://www.youtube.com/watch?v=YBXFRSAXScs))
+(Server technology of TOSS)](https://github.com/JayFreemandev/Conference/blob/main/Habits%20of%20Efficient%20Developers/README.md)**  
+[![Server technology of TOSS]](https://user-images.githubusercontent.com/72185011/171407219-e66ab8b4-e137-4623-ad6e-6c32f647b2a0.png)](https://youtu.be/9-cyC6O81Bk)
 
 열 배 효율(10x)을 내는 개발자가 신화 속 이야기라고 불려 오지만 우리는 모두 더 짧은 시간에 큰 노력 없이 척척 해내는 개발자들이 존재한다는걸 알고있다. 여기에 특별한 재능이 필요하다고 생각할 수도 있지만, 다니엘 레브레로는 이 강의를 통해 더욱 효율적인 개발자가 되려면 무엇을 배워야 하는지 알려준다.
