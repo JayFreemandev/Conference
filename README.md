@@ -13,7 +13,7 @@
 ### April
 **[SOLID 원칙으로 더 나은 개발자가 되는법 
 (Becoming a better developer by using the SOLID design principles)](https://github.com/JayFreemandev/Conference/tree/main/Becoming%20a%20better%20developer%20by%20using%20the%20SOLID%20design%20principles)**
-![Becoming better dev with SOLID principles](https://user-images.githubusercontent.com/72185011/158067792-e4add847-4526-4ed7-96e9-eb3170414e1b.png)
+[![Becoming better dev with SOLID principles](https://user-images.githubusercontent.com/72185011/158067792-e4add847-4526-4ed7-96e9-eb3170414e1b.png)](https://www.youtube.com/watch?v=rtmFCcjEgEw&pp=ugMICgJrbxABGAE%3D)
 
 "Don't try to achieve SOLID. Use SOLID to achieve maintainability"  
 SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위해 SOLID를 사용해라.  
