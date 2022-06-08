@@ -32,4 +32,5 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 (Server technology of TOSS)](https://github.com/JayFreemandev/Conference/blob/main/Habits%20of%20Efficient%20Developers/README.md)**  
 [![Server technology of TOSS](https://user-images.githubusercontent.com/72185011/171407219-e66ab8b4-e137-4623-ad6e-6c32f647b2a0.png)](https://youtu.be/9-cyC6O81Bk)
 
-열 배 효율(10x)을 내는 개발자가 신화 속 이야기라고 불려 오지만 우리는 모두 더 짧은 시간에 큰 노력 없이 척척 해내는 개발자들이 존재한다는걸 알고있다. 여기에 특별한 재능이 필요하다고 생각할 수도 있지만, 다니엘 레브레로는 이 강의를 통해 더욱 효율적인 개발자가 되려면 무엇을 배워야 하는지 알려준다.
+토스는 누적 사용자 1,800만 이상. 40여 개의 서비스가 돌아가는 모바일 금융 플랫폼이다.  
+토스는 매달 천만 명 이상 사용자를 어떻게 처리할까? 플랫폼팀 리더, 이항령님의 토스 서비스를 구성하는 서버 기술
