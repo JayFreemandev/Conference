@@ -161,7 +161,8 @@ Istio는 router의 weight로 카나리 가능
 
 인스턴스 개수와 상관없이 1% 카나리 가능.
 
-![Untitled](%E1%84%90%E1%85%A9%E1%84%89%E1%85%B3%E3%85%A3SLASH%2021%20-%20%E1%84%90%E1%85%A9%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20%E1%84%80%E1%85%B5%E1%84%89%202d1e7ca6ed27447d887901d83363a44f/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/72185011/172848745-4416df30-46c8-4ba2-86d9-26f25e0cb744.png)
+
 
 Istio의 또다른 기능으로는 failure injection test와 squeeze test
 
@@ -179,7 +180,8 @@ Istio의 또다른 기능으로는 failure injection test와 squeeze test
 
 # API-GATEWAY / WEBFLUX
 
-![Untitled](%E1%84%90%E1%85%A9%E1%84%89%E1%85%B3%E3%85%A3SLASH%2021%20-%20%E1%84%90%E1%85%A9%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20%E1%84%80%E1%85%B5%E1%84%89%202d1e7ca6ed27447d887901d83363a44f/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/72185011/172848768-e22b7e63-74e1-47bd-99bd-43d739dad4ec.png)
+
 
 클라이언트 인증과 암복호화 담당 서비스가 있었는데 트래픽 증가로 고사양 요구 
 
