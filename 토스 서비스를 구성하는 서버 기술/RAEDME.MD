@@ -2,13 +2,14 @@
 
 ![Untitled](https://user-images.githubusercontent.com/72185011/172847936-6054e7fc-e680-4334-905a-c9d6c2b624f0.png)
 
-토스는 누적 사용자 1,800만 이상. 40여 개의 서비스가 돌아가는 모바일 금융 플랫폼이다. 토스는 매달 천만 명 이상 사용자를 어떻게 처리할까?
+토스는 누적 사용자 1,800만 이상. 40여 개의 서비스가 돌아가는 모바일 금융 플랫폼이다.  
+토스는 매달 천만 명 이상 사용자를 어떻게 처리할까?  
 
 ![Untitled 1](https://user-images.githubusercontent.com/72185011/172848039-3f979fb4-cd41-4c29-ab7f-ad149e9f9fc9.png)
 
 두개의 데이터 센터와 AWS 일부 서비스를 이용중
 
-데이터 센터가 두 개다보니 컴포넌트 운영 이슈가 생김
+데이터 센터가 두 개다보니 컴포넌트 운영 이슈가 생김  
 
 ![Untitled 2](https://user-images.githubusercontent.com/72185011/172848062-15dfd15f-178c-4823-b704-1a99dee91e92.png)
 
@@ -38,23 +39,24 @@ elk + filebeat, thanos, grafana
 ![Untitled 4](https://user-images.githubusercontent.com/72185011/172848434-044f4f94-994c-4431-b3a3-72ea8e487749.png)
 
 
-송금말고도 채팅이나 카드사 알림이나 대출 서비스처럼 **외부 연동 서비스가 많다**. 여러 서비스 특성에 맞춰 스프링을 사용중이고 최근 개발되는 소스들은 코틀린을 사용하여 개발중이다.
+송금말고도 채팅이나 카드사 알림이나 대출 서비스처럼 **외부 연동 서비스가 많다**.   
+여러 서비스 특성에 맞춰 스프링을 사용중이고 최근 개발되는 소스들은 코틀린을 사용하여 개발중이다.
 
 ![Untitled 5](https://user-images.githubusercontent.com/72185011/172848452-c84d194f-358c-4af6-9859-72ae8796d752.png)
 
 
-AWS는 DNS설정을 하거나 이미지 검수, static file 서빙 기능으로 사용중
+AWS는 DNS설정을 하거나 이미지 검수, static file 서빙 기능으로 사용중  
 
-# 데이터 센터 트래픽 조절
+# 데이터 센터 트래픽 조절  
 
-## 2개의 데이터 센터를 이용한 안정적 서비스 운영
+## 2개의 데이터 센터를 이용한 안정적 서비스 운영  
 
 ![Untitled 6](https://user-images.githubusercontent.com/72185011/172848461-66eb50c6-0138-438d-8fda-ce69378f9e75.png)
 
 
-토스는 데이터 센터 2개를 운영하면서 평상시에는 트래픽이 50대 50인데
+토스는 데이터 센터 2개를 운영하면서 평상시에는 트래픽이 50대 50인데  
 
-한쪽이 100%가 되는 트래픽을 옮기는 작업을 자주한다. 왜냐하면 두가지 
+한쪽이 100%가 되는 트래픽을 옮기는 작업을 자주한다. 왜냐하면 두가지   
 
 이유인데. 
 
@@ -74,14 +76,14 @@ AWS는 DNS설정을 하거나 이미지 검수, static file 서빙 기능으로 
 ![Untitled 7](https://user-images.githubusercontent.com/72185011/172848485-7bda316d-7a59-43b9-9b73-9a4595e5b355.png)
 
 
-19년도에 dc/os에서 쿠버네티스로 갈아타기로 결정
+19년도에 dc/os에서 쿠버네티스로 갈아타기로 결정  
 
 Container Orchestration에서 가장 중요한게 
 
 - Service Discovery
-- container lifecycle management
+- container lifecycle management  
 
-DC/OS에서 카나리 배포로 사용하던 vamp는 service discovery 기능의 비효율과 한계가 존재
+DC/OS에서 카나리 배포로 사용하던 vamp는 service discovery 기능의 비효율과 한계가 존재  
 
 ![Untitled 8](https://user-images.githubusercontent.com/72185011/172848506-a7f21be0-a8dd-4409-93b5-dd2a97f877f3.png)
 
@@ -89,7 +91,7 @@ DC/OS에서 카나리 배포로 사용하던 vamp는 service discovery 기능의
 쿠버네티스 도입시 Istio도 함께 도입 왜?
 
 - Service Mesh의 장점이 크다고 판단
-
+  
 모놀리틱에서 MSA로 넘어가면서 여러 서버들의 호출로 하나의 서비스가 구성된다. 
 
 서버들 간의 네트워크 처리가 필요하였고 
@@ -121,16 +123,16 @@ Istio는 서비스에 Sidecar로 붙어서 실행되고 iptable을 통해 모든
 Istio proxy를 통해 나나고 Istio proxy로 통해 받는다. 
 
 Istio proxy는 **envoy proxy**를 Istio에서 wrapping한것이다.  
+  
 
 envoy의 탄생배경 “**프록시가 어떻게 동작하는지 명확하게 보여주마**”  따라서 
 
-connection pool 동작방식이나 프록시를 보내는쪽, 나가는쪽을 모아보면 **어디서 connection 끊기는**
+connection pool 동작방식이나 프록시를 보내는쪽, 나가는쪽을 모아보면 **어디서 connection 끊기는지 문제를 쉽게 파악**한다 
 
-**지 문제를 쉽게 파악**한다 
 
 기존 tcp dump로 보내는쪽, 받는쪽 모두 dump로 확인했던걸 envoy가 대신 해결해준다고 보면 된다. 
 
-따라 토스 **서비스의 전체적인 Observability 대폭 증가**
+따라 토스 **서비스의 전체적인 Observability 대폭 증가**  
 
 ![Untitled 10](https://user-images.githubusercontent.com/72185011/172848667-3f4e484e-9098-42c2-8878-ed25895d9add.png)
 
@@ -155,7 +157,8 @@ Envoy 필터로 헤더처리 접근제어를 하는중
 
 EX) 10개의 인스턴스에서 1개만 카나리를 나가면 10% 카나리, 
 
-1% 카나리를 배포하려면 100개의 인스턴스가 필요.
+1% 카나리를 배포하려면 100개의 인스턴스가 필요.  
+
 
 Istio는 router의 weight로 카나리 가능
 
@@ -168,12 +171,14 @@ Istio의 또다른 기능으로는 failure injection test와 squeeze test
 
 - failure injection test
 
+  
 특정 조건에 맞는 요청일 경우 실패 또는 응답을 늦게 하도록 만들어 
 
 서비스에서 실패에 대한 처리가 되도록 되는지 테스트
 
 - squeeze test
 
+  
 하나의 인스턴스에 요청을 높여 부하를 주는 테스트, 
 
 서비스가 어느 정도 요청부터 부하를 느끼는지 배포를 통한 성능 하락이 있는지 미리 알수있다.
@@ -232,19 +237,21 @@ MSA구조상 서버들이 여러 곳에서 올라오기 때문에 Log의 중앙�
 
 로그에는 메세지를 포함한 다양한 정보가 들어감. 컨테이너 ID와 서비스ID가 들어가서 어느 데이터
 
-센터에서 어떤 컨테이너가 로그남긴지 확인 이걸로 특정 장비 문제인지 특정 서비스의 문제인지 구
+센터에서 어떤 컨테이너가 로그남긴지 확인 이걸로 특정 장비 문제인지 특정 서비스의 문제인지 구분   
 
-분 
 
 배포ID는 어느 배포 버전에서 발생하는지 구분하여 신규 배포 문제인지 이전배포 문제인지 확인 배
 
-포에서 생긴 문제는 바로 롤백해버린다. 
+포에서 생긴 문제는 바로 롤백해버린다.   
+
 
 MSA 구조에서는 문제가 발생했을 때 원인이 요청을 받는 서비스 일수도있고 요청을 주는 서비스에
 
 서 잘못 줄수도있어서 어디 문제인지 확인하기위해 Request ID를 쌓고 apm으로는 **pinpoint**사용중
 
-인데 해당요청이 pinpoint의 어떤 요청과 매칭되는지 확인용으로 pinpoint ID도 같이 쌓고있다.
+인데 해당요청이 pinpoint의 어떤 요청과 매칭되는지 확인용으로 pinpoint ID도 같이 쌓고있다.    
+
+
 
 금융회사로 장기보관하는 데이터들은 카프카에서 **하둡으로 데이터를 장기보관,** 
 
@@ -255,15 +262,16 @@ MSA 구조에서는 문제가 발생했을 때 원인이 요청을 받는 서비
 
 Metric은 쿠버와 잘맞는
 
-- **프로메테우스를** 사용중
+- **프로메테우스를** 사용중  
 
 HA와 데이터 장기보관을 위해 
 
-- **thanos**를 사용중
+- **thanos**를 사용중  
 
 데이터센터별 THANOS에 쿼리를 하기 위해 
 
-- **global thanos** 따로 사용
+- **global thanos** 따로 사용  
+
 
 **ceph**를 내부 저장소로 사용하고 **grafana**로 데이터를 확인
 
