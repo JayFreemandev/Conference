@@ -37,3 +37,12 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 토스는 누적 사용자 1,800만 이상. 40여 개의 서비스가 돌아가는 모바일 금융 플랫폼이다.  
 토스는 매달 천만 명 이상 사용자를 어떻게 처리할까?  
 플랫폼팀 리더, 이항령님의 토스 서비스를 구성하는 서버 기술
+
+### July
+**[토스 서비스를 구성하는 서버 기술  
+(Server technology of TOSS)](https://github.com/JayFreemandev/Conference/blob/main/%ED%86%A0%EC%8A%A4%20%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC%20%EA%B5%AC%EC%84%B1%ED%95%98%EB%8A%94%20%EC%84%9C%EB%B2%84%20%EA%B8%B0%EC%88%A0/RAEDME.MD)*  
+[![Server technology of TOSS](https://user-images.githubusercontent.com/72185011/171407219-e66ab8b4-e137-4623-ad6e-6c32f647b2a0.png)](https://youtu.be/9-cyC6O81Bk)
+
+토스는 누적 사용자 1,800만 이상. 40여 개의 서비스가 돌아가는 모바일 금융 플랫폼이다.  
+토스는 매달 천만 명 이상 사용자를 어떻게 처리할까?  
+플랫폼팀 리더, 이항령님의 토스 서비스를 구성하는 서버 기술
