@@ -45,17 +45,20 @@
 
 아까 숨쉬는거 마저 이야기하자면 이 모든 장기들은 각자 할일을 하고  이 할일들이 모여 전체적인 조화를이룬다. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/811a1874-581e-432f-8e35-2436fe9a110c/Untitled.png)
+![image](https://user-images.githubusercontent.com/72185011/173218878-0e53998e-3fd3-470a-94b5-35809b84c77a.png)
 
-영상에서보면 선들하고 저 딱콩들에서 무언가가 실시간으로 움직임
+영상에서보면 선들하고 저 딱콩들에서 무언가가 실시간으로 움직임  
 
-ELB뒤에 동적 라우팅을 담당하는 Zuul이라는 프록시 레이어가 있다.
+ELB뒤에 동적 라우팅을 담당하는 Zuul이라는 프록시 레이어가 있다.  
 
-앞에는 NCCP라고하는 레거시 티어가 있는데 이전 장비를 호환시켜주고 기본적인 동영상 재생을 시켜준다.
+앞에는 NCCP라고하는 레거시 티어가 있는데 이전 장비를 호환시켜주고 기본적인 동영상 재생을 시켜준다.  
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3f89052-daed-4f51-968a-19f1267f4e11/Untitled.png)
+![image](https://user-images.githubusercontent.com/72185011/173218919-cf31254c-2342-4182-a068-f3696f82f41f.png)
 
-넷플릭스 API는 API 게이트웨이를 통해 호출되는데 이게 오늘날 모던 아키텍쳐의 핵심이다. 외부 고객들의 모든 요청을 받기 위해 다른 서비스들을 호출한다. 해당 계층을 엣지 서비스라고 한다.  
+
+넷플릭스 API는 API 게이트웨이를 통해 호출되는데 이게 오늘날 모던 아키텍쳐의 핵심이다.  
+외부 고객들의 모든 요청을 받기 위해 다른 서비스들을 호출한다.  
+해당 계층을 엣지 서비스라고 한다.   
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5d513b5-8fdf-4065-8cc6-03b970bb802d/Untitled.png)
 
