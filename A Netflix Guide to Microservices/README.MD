@@ -90,7 +90,12 @@ ELB뒤에 동적 라우팅을 담당하는 Zuul이라는 프록시 레이어가 
 4. Change
 
 # Dependency
-의존성의 유즈 케이스들을 다음과 같은 4가지로 설명할 수 있다.  
+의존성의 유즈 케이스들을 다음과 같은 4가지로 설명할 수 있다.   
+  
+- Intra-Service requests
+- Client librariesData
+- Persistence
+- Infrastructure
 
 ## Infra-service-requests
 
