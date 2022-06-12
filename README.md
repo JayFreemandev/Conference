@@ -25,7 +25,9 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 (A Netflix Guide to Microservices)](https://github.com/JayFreemandev/Conference/tree/main/A%20Netflix%20Guide%20to%20Microservices)**
 [![A Netflix Guide to Microservices](https://user-images.githubusercontent.com/72185011/171405373-24027b6d-b266-438e-90a4-00d8b4442f80.png)](https://www.youtube.com/watch?v=V_oxbj-a1wQ)
 
-조쉬 에반스는 넷플릭스가 마이크로서비스를 추진하며 7년동안 직면하게된 여러 케이스들과 솔루션들을 담백하게 풀어낸다.
+오늘날 8600만명의 가입자들과 190여 국가에서 서비스를 제공하는 넷플릭스.  
+넷플릭스가 마이크로서비스를 추진하며 7년동안 직면하게된  
+여러 케이스들과 문제 해결들을 어떻게 풀어냈을까? -조쉬 에반스-
 
 ### June
 **[토스 서비스를 구성하는 서버 기술  
