@@ -221,19 +221,19 @@ local quorum이라는 기능이 있는데. 정합성 레벨(consistency level)�
 복구 작업하는 동안 서비스 요청도 받을수있어서 읽기하다가 잘못된 값을 반환할수도있어서 복구 되기전에 요청보내면 틀린 결과를 반환할수도있음.   
 
 ## Infrastructure
-![image](https://user-images.githubusercontent.com/72185011/173221995-f3418bd8-ced7-4759-8847-13448c58c648.png)
-2012년 크리스마스 이브에 AWS 장애가 발생했다.   
-ELB의 제어 부분이 다운되었는데 하필 넷플릭스의 모든 리소스가 한곳에 있었다.  
+![image](https://user-images.githubusercontent.com/72185011/173221995-f3418bd8-ced7-4759-8847-13448c58c648.png)                         
+2012년 크리스마스 이브에 AWS 장애가 발생했다.                     
+ELB의 제어 부분이 다운되었는데 하필 넷플릭스의 모든 리소스가 한곳에 있었다.                                         
 
-![image](https://user-images.githubusercontent.com/72185011/173222004-62bcb03b-53a8-4418-9573-9d5ffdc5522e.png)
+![image](https://user-images.githubusercontent.com/72185011/173222004-62bcb03b-53a8-4418-9573-9d5ffdc5522e.png)                               
 계란을 한바구니에 담은거처럼 us-east-1에 있었다.   
 해당 region이 터지고 난 후 손가락을 쪽쪽 빨아야했다.  
+                 
+아마존이 aws 서비스를 못하는게 아니다.                  
+어떤 AWS던 니가 직접 구성한 인프라건 장애는 반드시 발생한다.                      
 
-아마존이 aws 서비스를 못하는게 아니다.   
-어떤 AWS던 니가 직접 구성한 인프라건 장애는 반드시 발생한다.   
-
-![image](https://user-images.githubusercontent.com/72185011/173222026-eafff488-3c95-4f24-b21a-e65af07076bc.png)
-계란이 모두 깨진 넷플릭스는 공포의 쓴맛을 기억하며 멀티 AWS region을 구성했다.   
-계란을  여러 바구니에 담아서 하나 터져도 서비스에 지장이 가지 않게 말이다.  
+![image](https://user-images.githubusercontent.com/72185011/173222026-eafff488-3c95-4f24-b21a-e65af07076bc.png)                                  
+계란이 모두 깨진 넷플릭스는 공포의 쓴맛을 기억하며 멀티 AWS region을 구성했다.             
+계란을  여러 바구니에 담아서 하나 터져도 서비스에 지장이 가지 않게 말이다.              
 
 # Scale(추후 진행)
