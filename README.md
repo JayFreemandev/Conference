@@ -37,10 +37,10 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 토스는 누적 사용자 1,800만 이상. 40여 개의 서비스가 돌아가는 모바일 금융 플랫폼이다.  
 토스는 매달 천만 명 이상 사용자를 어떻게 처리할까?  
 플랫폼팀 리더, 이항령님의 토스 서비스를 구성하는 서버 기술
-
+  
 ### July
 **[어떻게 말할것인가  
-(How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/%ED%86%A0%EC%8A%A4%20%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC%20%EA%B5%AC%EC%84%B1%ED%95%98%EB%8A%94%20%EC%84%9C%EB%B2%84%20%EA%B8%B0%EC%88%A0/RAEDME.MD)*  
+(How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 [![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
 
 개발자에게 가장 중요한 능력은 커뮤니케이션이다. 개발은 문제를 해결하는 행위고 커뮤니케이션으로 해답을 찾을 수 있기에 효율적이다. 
