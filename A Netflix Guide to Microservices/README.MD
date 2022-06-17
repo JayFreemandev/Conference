@@ -283,9 +283,9 @@ S3에 이미지 가져와서 필요한만큼 세포마냥 쭈욱 쭈욱 늘린�
 앞으로 수신해야할 데이터 크기, 시퀸스를 저장하고 다 수신될때까지 세션을 유지하는것도 Stateful service의 예시중 하나이다.  
 
 Stateful 구조에서 노드 하나가 고장나면 새로 갈아 끼우는데 땀이 삐질흘릴거다.   
-내가 있을 당시에 야후에 좀 치는 개발자들이 있었다고 했는데 이 사람들이 HA Proxy랑 squid cache 경험이 있는 사람들이였다.  
+내가 있을 당시에 야후에 좀 치는 개발자들이 있었다고 했는데 이 사람들이 HA Proxy랑 squid cache 경험이 있는 사람들이였다.    
 
-![Untit![Untitled 25](https://user-images.githubusercontent.com/72185011/174321140-0a52d4bc-f42b-43bb-91a7-8c4f8ab37717.png)
+![Untitled 25](https://user-images.githubusercontent.com/72185011/174321140-0a52d4bc-f42b-43bb-91a7-8c4f8ab37717.png)
 
 그리고 이 사람들 패턴이 있는데 고객이 요청하면 언제나 같은 노드에서 캐시를 가져가게 하는거다.   
 그렇기에 하나가 터지면 이 캐시를 이용하는 고객들은 서비스 이용에 문제가 생기게된다.   
