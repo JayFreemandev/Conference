@@ -363,7 +363,7 @@ EVCache를 사용하는데 여기 또 너무 의존하니까 EVCache죽으니까
 Polyglot은 여러 언어를 쓰는것을 의미함  
 내가 매니저로 지난 몇년동안 일어난 실제 이야기다.   
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2031.png)
+![Untitled 31](https://user-images.githubusercontent.com/72185011/174322866-1f51f756-2716-415c-a812-cc1fee4ef8c6.png)
 
 Polyglot & Containers를 의도적인 변형이라고도한다.   
 사람들은 마이크로 서비스에 이 새로운 기술들을 적용하려고 한다.     
@@ -379,7 +379,7 @@ Polyglot & Containers를 의도적인 변형이라고도한다.
 
 # Change
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2032.png)
+![Untitled 32](https://user-images.githubusercontent.com/72185011/174322839-3227e905-1957-47c7-bba7-bf7217c6d30c.png)
 
 다운되는 시간을 보면 9시 아침에 뻥 터지고 넷플릭스를 분해하기 시작한다.  
 **어떻게 내가 속도도 빨리하면서 똥을 뿌직 안쌀 자신으로 문제를 해결할까?**  
