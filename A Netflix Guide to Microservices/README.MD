@@ -237,3 +237,173 @@ ELB의 제어 부분이 다운되었는데 하필 넷플릭스의 모든 리소�
 계란을  여러 바구니에 담아서 하나 터져도 서비스에 지장이 가지 않게 말이다.              
 
 # Scale
+3가지 케이스가 있다.
+
+- Stateless services
+- Stateful services
+- Hybrid services
+
+## Stateless service란?
+
+- cache x DB x
+- 메모리에 자주 접근하는 메타데이터가 캐시로 되어있음
+- 사용자는 하나의 인스턴스에 종속되지 않고 노드 죽어도 새로 생성쉬움
+
+세션 정보를 server에 담지 않아서 세션 state에 무관한 응답을함 이게 무슨말이냐 클라이언트가 A의 요청을 하는 경우 고정된 서버에서만 관리 할 필요가 없다는 소리다. 
+
+굳이 필요한 정보가 있다면 외부 DB에 저장하지 서버는 저장안함.
+
+언급하는 이유는 Stateless service는 Scaling에 자유로운 구조이기 때문이다.
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2023.png)
+
+생물학으로 돌아가서 
+
+이 계란후라이같이 생긴게 분열을 하면서 필요에 따라 세포를 만들 수 있거나 세포가 계속 죽어가고 있는 것처럼 보이면서 복제한다.  
+
+Auto Scaling이 그렇다.
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2024.png)
+
+최대값 최소값 사이즈를 정하고 새 인스턴스를 확장해야할때 (on demand) 방식으로 S3에 이미지 가져와서 필요한만큼 세포마냥 쭈욱 쭈욱 늘린다. 필요할때 늘려서 컴퓨팅 효율성도 좋고 노드가 쉽게 교체된다. 
+
+해당 기술의 장점은 디도스 공격이나 문제가 생겼을때 스케일링을 늘려 실제로 무슨 일이 일어났는지 파악하는 동안 세포 분열하듯이 장애 사항을 흡수해버린다.
+
+## 그럼 Stateful service란?
+
+- DB & Caches
+- hold large amounts of data
+
+세션에 상태에 따라 서버의 응답이 달라지는 3 way handshake나 데이터 전송시 패킷헤더를 하싱하여 앞으로 수신해야할 데이터 크기, 시퀸스를 저장하고 다 수신될때까지 세션을 유지하는것도 Stateful service의 예시중 하나이다.
+
+Stateful 구조에서 노드 하나가 고장나면 새로 갈아 끼우는데 땀이 삐질흘릴거다. 내가 있을 당시에 야후에 좀 치는 개발자들이 있었다고 했는데 이 사람들이 HA Proxy랑 squid caches 경험이 있는 사람들이였다.
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2025.png)
+
+그리고 이 사람들 패턴이 있는데 고객이 요청하면 언제나 같은 노드에서 캐시를 가져가게 하는거다.  그렇기에 하나가 터지면 이 캐시를 이용하는 고객들은 서비스 이용에 문제가 생기게된다. 
+
+더 심각했던거는 히스트릭스가 없었던 이전 상황이고 따로 복구할 벌크 헤딩, 분리,  쓰레드풀 고립이 안되있어서 한 노드가 죽으면 넷플릭스 전체가 다운되버렸다. 노드 하나 복구하는데 3시간 넘게 걸렸음.
+
+그래서 이런 Single point failure pattern이 안좋다는거다 다시 생물학으로 돌아가서 중복성이라는거는 기본적이다. 우리 몸은 두 개의 신장, 두 개의 폐를 가지고 있으므로 하나가 기능을 못하더라도 당장 죽지는 않는다. 우리 몸도 그렇듯 넷플릭스는 EVCache Writes라는 기술을 적용했다.
+
+노드 하나 죽으면 다른 환경 노드 사용하는거다.
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2026.png)
+
+Memcached로 wrapping한 기술인데 위에 나오는 오징어 캐시랑 유사하게 분할되지만 저장이 일어 날때마다 복사본이 여러 노드에 기록된다. 자기 구역에 있는것만 읽어오지만 장애 났을때는 다른 구역 넘나들며 읽어오기 가능함
+
+Hybrid Microservice
+
+EVCache를 사용하는데 여기 또 너무 의존하니까 EVCache죽으니까 문제 
+
+생기더라 해결책으로는 다음과 같은 방법들이 있는데
+
+첫째, 실시간으로 Batch를 사용 금지
+
+두번째, 매번 Request가 서비스 반복 호출하게 하지말고 요청 한 번 받을때 캐시남겨서 나머지 요청은 캐시를 통해 제공
+
+세번째, Token roll back, 장애가 발생하더라도, Token에 충분한 정보가 있어서 사용자에게 당장 기본 작업을 제공할수있도록 암호화된 토큰으로 백업준비.
+
+네번째, Chaos(실패 주입)가 일어나게 아키텍쳐 테스트로 해당 장애를 방지.
+
+# Varience within your architecture
+
+**시스템이 다양할수록 관리하기 더 복잡하고 어려워진다.** 
+
+아키텍쳐 내 변형에대해 설명하고 두가지 목차가있다.
+
+- Operational drift
+- Polyglot & containers
+
+## Operational drift란
+
+의도하지않은..이라고도 하는데 내가 의도한게 아니라 자연스럽게 그냥 일어남
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2027.png)
+
+서비스를 지속적으로 운영하기 위한 좋은 방법을 찾아냈지만 팀 중 절반만이 실제로 이 방법을 도입했다고 가정해보자
+
+팀원들과 처음 이야기 할때 위에 알림, 타임아웃, 폴백 등 효율적으로 운영하기 좋은 방식들에 대해, 처음에는 열정으로 가득하지만 사람이란게 수동적이고 반복적인거를 싫어한다. 더군다나 내 서비스 제품 작업과 관련이 없기때문에 내 업무 하기 바빠서 나중에는 열정도 식고 피하게 된다.
+
+다시 생물학으로 돌아가자
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2028.png)
+
+이 Autonomic Nervous가 뭐냐? 자율 신경계다 우리가 음식 소화하거나 숨쉬는거에 대해 신경쓰면서 안해도 자연스럽게 되는 행동들이다.  자면서 내가 숨쉬는걸 깜빡해서 죽는 걱정은 하지않는다.
+
+이러한 이상적인 행동을 잠재적으로 할수있는 환경을 조성하는게 중요하다. 넷플릭스는 지속적인 학습과 자동화의 사이클을 구축해냈다. 
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2029.png)
+
+장애가 생기고 리뷰와 분석을 통해 배우고 베스트 프랙티스를 자동화시키고 적용했다. 이러한 지식이 코드가되고 직접적으로 마이크로 서비스 구조에 통합시킨다.
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2030.png)
+
+넷플릭스 상용 준비에 필요한 체크리스트다. 이 모든 모듈 하나 하나를 지속적으로 개선해오고있다. 
+
+## Polyglot & Containers
+
+Polyglot은 여러 언어를 쓰는것을 의미함
+
+내가 매니저로 지난 몇년동안 일어난 실제 이야기다. 
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2031.png)
+
+Polyglot & Containers를 의도적인 변형이라고도한다. 사람들은 마이크로 서비스에 이 새로운 기술들을 적용하려고 한다. 하는데 3년전에 넷플릭스의 자동화와 통합 기능을 갖춘 기술 스택을 구성하고있었다. 내가 짠대로 따라가면 효율적이고 이상적인 환경을 만들수있는데
+
+일부 힙스터 개발자들은 내가 만들어놓은 도로를 벗어나 직접 도로를 만들고 자바하자니까 파이썬, 루비, 노드로 개발하기 시작했다. 각각 어느 정도의 유의미한 가치를 보여주기는 했는데 도커가 등장하면서 일이 아주 뜨거워졌다.
+
+하나의 도로대신 이제는 인프라팀들의 곡소리를 들을수있는 포장 도로가 여러개생겼다. 이런 모든 케이스들을 유지하는데는 비용이든다 도커 컨테이너비용, 모니터링 등 넷플릭스는 올바른 이러한 문제때문에 지원 범위를 제한하고 재사용 가능한 솔루션을 찾아서 다양성에 대응했다.
+
+# Change
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2032.png)
+
+다운되는 시간을 보면 9시 아침에 뻥 터지고 넷플릭스를 분해하기 시작한다.
+
+**어떻게 내가 속도도 빨리하면서 똥을 뿌직 안쌀 자신으로 문제를 해결할까?**
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2033.png)
+
+새로운 전달 시스템인 스핀에이커가 등장한다. 스핀에이커는 상용에 배포할때 통합 될 수 있도록 모범 사레를 통합하여 설계된 도구다. 예를 들어 새로운 버전의 어플리케이션 배포시 현재 라이브 시스템에서 유입되는 트래픽의 일부를 자동으로 새로 배포중인 어플리케이션에 흘려보내 기존 코드와 새로운 코드를 비교할 수 있게 해준다.
+
+### 쉬어가는 타임
+
+부수적으로 Conway’s Law이야기도 나왔는데 일렉트로닉 딜리버리라는 기능을 넷플릭스에서 제공했다. 현대의 스트리밍느낌임. 서비스와 API를 운영하는 팀이 달라 문제점이 생겼고 소프트웨어는 그걸 만든 팀의 구조를 닮는다. 컴파일러를 만드는 팀이 4개면 4개의 단계를 가지는 컴파일러가 만들어진다. 
+
+두개의 서비스를 합치고나서야 긍정적인 성능 향상을 가져올수있었다. 조직이 먼저가 아니라 해결방안이 먼저다. 일하면서 느끼는거지만 같이 일하고있는 팀내에서도 소통의 부재로 서로 다른 결과물을 만들때가 있었다. 
+
+![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2034.png)
+
+우리 몸과 같이 복잡하고 유기적인 마이크로 서비스 아키텍쳐 
+
+요약
+
+Dependency
+
+- Circuit breakers, fallbacks, chaos
+- Simple clients
+- Eventual consistency
+
+Scale
+
+- Auto-scaling
+- Redundancy, avoid SPoF
+- Partioned workloads
+- Failure-driven design
+- Chaos under load
+
+Variance
+
+- Engineered operations
+- Understood cost of variance
+- Prioritised support by impact
+
+Change
+
+- Automated delivery
+- Integrated practices
+
+Organisation and architecture
+
+- Solutions first, team second
