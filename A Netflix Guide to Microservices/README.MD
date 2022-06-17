@@ -264,20 +264,26 @@ ELB의 제어 부분이 다운되었는데 하필 넷플릭스의 모든 리소�
 
 Auto Scaling이 그렇다.
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2024.png)
+![Untitled 22](https://user-images.githubusercontent.com/72185011/174320843-369ec4cf-94af-44db-ac1e-738ae44c97da.png)
 
-최대값 최소값 사이즈를 정하고 새 인스턴스를 확장해야할때 (on demand) 방식으로 S3에 이미지 가져와서 필요한만큼 세포마냥 쭈욱 쭈욱 늘린다. 필요할때 늘려서 컴퓨팅 효율성도 좋고 노드가 쉽게 교체된다. 
+최대값 최소값 사이즈를 정하고 새 인스턴스를 확장해야할때 (on demand) 방식으로   
+S3에 이미지 가져와서 필요한만큼 세포마냥 쭈욱 쭈욱 늘린다.   
 
-해당 기술의 장점은 디도스 공격이나 문제가 생겼을때 스케일링을 늘려 실제로 무슨 일이 일어났는지 파악하는 동안 세포 분열하듯이 장애 사항을 흡수해버린다.
+필요할때 늘려서 컴퓨팅 효율성도 좋고 노드가 쉽게 교체된다.    
+
+해당 기술의 장점은 디도스 공격이나 문제가 생겼을때 스케일링을 늘려   
+실제로 무슨 일이 일어났는지 파악하는 동안 세포 분열하듯이 장애 사항을 흡수해버린다.  
 
 ## 그럼 Stateful service란?
 
 - DB & Caches
 - hold large amounts of data
 
-세션에 상태에 따라 서버의 응답이 달라지는 3 way handshake나 데이터 전송시 패킷헤더를 하싱하여 앞으로 수신해야할 데이터 크기, 시퀸스를 저장하고 다 수신될때까지 세션을 유지하는것도 Stateful service의 예시중 하나이다.
+세션에 상태에 따라 서버의 응답이 달라지는 3 way handshake나 데이터 전송시 패킷헤더를 하싱하여    
+앞으로 수신해야할 데이터 크기, 시퀸스를 저장하고 다 수신될때까지 세션을 유지하는것도 Stateful service의 예시중 하나이다.  
 
-Stateful 구조에서 노드 하나가 고장나면 새로 갈아 끼우는데 땀이 삐질흘릴거다. 내가 있을 당시에 야후에 좀 치는 개발자들이 있었다고 했는데 이 사람들이 HA Proxy랑 squid caches 경험이 있는 사람들이였다.
+Stateful 구조에서 노드 하나가 고장나면 새로 갈아 끼우는데 땀이 삐질흘릴거다.   
+내가 있을 당시에 야후에 좀 치는 개발자들이 있었다고 했는데 이 사람들이 HA Proxy랑 squid cache 경험이 있는 사람들이였다.  
 
 ![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2025.png)
 
