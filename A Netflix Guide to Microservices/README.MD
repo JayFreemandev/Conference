@@ -329,7 +329,7 @@ EVCache를 사용하는데 여기 또 너무 의존하니까 EVCache죽으니까
 
 의도하지않은..이라고도 하는데 내가 의도한게 아니라 자연스럽게 그냥 일어남
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2027.png)
+![Untitled 27](https://user-images.githubusercontent.com/72185011/174321595-af2afcba-3794-452a-8311-7fdf14e5ec3b.png)
 
 서비스를 지속적으로 운영하기 위한 좋은 방법을 찾아냈지만 팀 중 절반만이 실제로 이 방법을 도입했다고 가정해보자
 
@@ -337,17 +337,18 @@ EVCache를 사용하는데 여기 또 너무 의존하니까 EVCache죽으니까
 
 다시 생물학으로 돌아가자
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2028.png)
+![Untitled 28](https://user-images.githubusercontent.com/72185011/174321629-8d97d0a3-7cc1-4022-a8e7-5ea5cf89dc2d.png)
 
 이 Autonomic Nervous가 뭐냐? 자율 신경계다 우리가 음식 소화하거나 숨쉬는거에 대해 신경쓰면서 안해도 자연스럽게 되는 행동들이다.  자면서 내가 숨쉬는걸 깜빡해서 죽는 걱정은 하지않는다.
 
 이러한 이상적인 행동을 잠재적으로 할수있는 환경을 조성하는게 중요하다. 넷플릭스는 지속적인 학습과 자동화의 사이클을 구축해냈다. 
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2029.png)
+![Untitled 29](https://user-images.githubusercontent.com/72185011/174321655-86c1503f-ea4c-4345-a5da-270988d63cd6.png)
 
 장애가 생기고 리뷰와 분석을 통해 배우고 베스트 프랙티스를 자동화시키고 적용했다. 이러한 지식이 코드가되고 직접적으로 마이크로 서비스 구조에 통합시킨다.
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2030.png)
+![Untitled 30](https://user-images.githubusercontent.com/72185011/174321677-caaedbd9-1d17-42d1-ac06-9d1bf6d3abab.png)
+
 
 넷플릭스 상용 준비에 필요한 체크리스트다. 이 모든 모듈 하나 하나를 지속적으로 개선해오고있다. 
 
@@ -373,7 +374,8 @@ Polyglot & Containers를 의도적인 변형이라고도한다. 사람들은 마
 
 **어떻게 내가 속도도 빨리하면서 똥을 뿌직 안쌀 자신으로 문제를 해결할까?**
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2033.png)
+![Untitled 33](https://user-images.githubusercontent.com/72185011/174321803-64395597-0a7a-4f7f-bbb4-389f7d9413f6.png)
+
 
 새로운 전달 시스템인 스핀에이커가 등장한다. 스핀에이커는 상용에 배포할때 통합 될 수 있도록 모범 사레를 통합하여 설계된 도구다. 예를 들어 새로운 버전의 어플리케이션 배포시 현재 라이브 시스템에서 유입되는 트래픽의 일부를 자동으로 새로 배포중인 어플리케이션에 흘려보내 기존 코드와 새로운 코드를 비교할 수 있게 해준다.
 
@@ -383,7 +385,7 @@ Polyglot & Containers를 의도적인 변형이라고도한다. 사람들은 마
 
 두개의 서비스를 합치고나서야 긍정적인 성능 향상을 가져올수있었다. 조직이 먼저가 아니라 해결방안이 먼저다. 일하면서 느끼는거지만 같이 일하고있는 팀내에서도 소통의 부재로 서로 다른 결과물을 만들때가 있었다. 
 
-![Untitled](A%20Netflix%20Guide%20to%20Microservices%2018f2c9a7107d49af83aabb17fe09fb10/Untitled%2034.png)
+![Untitled 34](https://user-images.githubusercontent.com/72185011/174321819-00fb5724-90f7-4876-ae94-055eb3de4583.png)
 
 우리 몸과 같이 복잡하고 유기적인 마이크로 서비스 아키텍쳐 
 
