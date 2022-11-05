@@ -59,11 +59,9 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 ### September
 **[애자일은 죽었다  
 (How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
-[![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
-
-개발자에게 가장 중요한 능력은 커뮤니케이션이다. 개발은 문제를 해결하는 행위고 커뮤니케이션으로 해답을 찾을 수 있기에 효율적이다. 
-열심히 개발한 코드도 쓸모가 없어질 수 있다 하지만 많은 사람과 의견을 나누면 짧은 시간에 보다 많은 문제를 해결하는 효율적인 진행이 가능하다.
-패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다.
+![agile](https://user-images.githubusercontent.com/72185011/200123020-4e67b5be-3754-4f61-ab86-4e940f547dbc.jpg)  
+ 
+Dave Thomas는 애자일 선봉자중 한명이였지만 애자일은 죽었다고한다. 왜 그런 생각을 가지게되었을지 또 그렇다면 어떻게 해야될지 애자일 산업에 대해 파해치는 강연이다.  
 
 ### October
 **[DDD는 과대평가인가? 
