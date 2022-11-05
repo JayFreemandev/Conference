@@ -78,8 +78,8 @@ DDD의 기여와 DDD를 둘러싼 과장된 오해와 오용에 대해 이야기
 ### December
 **[우버를 1000개 서비스로 확장하기전에 알았더라면..
 (How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
-[![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
+![uber](https://user-images.githubusercontent.com/72185011/200123677-a3e6939d-7160-484c-886d-1a5f5135db72.jpg)
 
-개발자에게 가장 중요한 능력은 커뮤니케이션이다. 개발은 문제를 해결하는 행위고 커뮤니케이션으로 해답을 찾을 수 있기에 효율적이다. 
-열심히 개발한 코드도 쓸모가 없어질 수 있다 하지만 많은 사람과 의견을 나누면 짧은 시간에 보다 많은 문제를 해결하는 효율적인 진행이 가능하다.
-패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다. 
+Uber의 수석 시스템 설계자, Voxer는 Uber의 성장에 발맞추기 위해 마이크로서비스를 수용했다.   
+이로 인해 2016년 3월 초에 1,000개 이상의 프로덕션 서비스를 넘어 새로운 서비스가 폭발적으로 증가했고.   
+그 과정에서 우리는 많은 것을 배웠고 모든 것을 다시 해야 한다면? 이라는 회고가 담긴 강연이다.  
