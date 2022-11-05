@@ -48,7 +48,7 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다. 
 
 ### August
-**[어떻게 말할것인가  
+**[람다를 이용한 디자인패턴  
 (How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 [![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
 
@@ -57,7 +57,7 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다. 
 
 ### September
-**[어떻게 말할것인가  
+**[애자일은 죽었다  
 (How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 [![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
 
@@ -66,7 +66,7 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다.
 
 ### October
-**[어떻게 말할것인가  
+**[DDD는 과대평가인가? 
 (How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 [![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
 
@@ -75,7 +75,7 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다. 
 
 ### November
-**[어떻게 말할것인가  
+**[질리지않는 팀회의를 하는 방법  
 (How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 [![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
 
@@ -84,7 +84,7 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다. 
 
 ### December
-**[어떻게 말할것인가  
+**[우버를 1000개 서비스로 확장하기전에 알았더라면..
 (How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 [![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
 
