@@ -48,13 +48,11 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다. 
 
 ### August
-**[람다를 이용한 디자인패턴  
+**[코드 퀄리티를 올려야 하는 이유와 방법  
 (How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
-[![How to Speak](https://user-images.githubusercontent.com/72185011/173223072-7b93a1db-19bd-47e0-b81b-21c94c1c3f26.png)](https://youtu.be/Unzc731iCUY)
+![improve](https://user-images.githubusercontent.com/72185011/200123268-26820c36-eaaa-4bee-a912-a32304048ceb.jpg)
 
-개발자에게 가장 중요한 능력은 커뮤니케이션이다. 개발은 문제를 해결하는 행위고 커뮤니케이션으로 해답을 찾을 수 있기에 효율적이다. 
-열심히 개발한 코드도 쓸모가 없어질 수 있다 하지만 많은 사람과 의견을 나누면 짧은 시간에 보다 많은 문제를 해결하는 효율적인 진행이 가능하다.
-패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다. 
+빠르게 만들어야하는 압박감 속에 코드 품질을 잊기 쉽다. 시간이 지남에 따라 코드는 변형되고 더 읽기 어려워지기에 고통을 겪게 된다. Venkat는 좋은 품질의 코드를 유지해야하는 이유와 어떻게 각자 좋은 코드를 만드는데 참여할 수 있는지에 대해 논의하는 강연이다. 
 
 ### September
 **[애자일은 죽었다  
