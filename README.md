@@ -56,28 +56,28 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 
 ### September
 **[애자일은 죽었다  
-(How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(Agile is dead)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 ![agile](https://user-images.githubusercontent.com/72185011/200123020-4e67b5be-3754-4f61-ab86-4e940f547dbc.jpg)  
  
 Dave Thomas는 애자일 선봉자중 한명이였지만 애자일은 죽었다고한다. 왜 그런 생각을 가지게되었을지 또 그렇다면 어떻게 해야될지 애자일 산업에 대해 파해치는 강연이다.  
 
 ### October
 **[도메인 주도 개발(DDD)는 과대 평가인가?
-(How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(is DDD overrated?)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 ![ddd](https://user-images.githubusercontent.com/72185011/200123423-e6418606-4be2-41a9-9384-8c0050873822.jpg)
 
 DDD의 기여와 DDD를 둘러싼 과장된 오해와 오용에 대해 이야기하는 강연이다. 
 
 ### November
 **[질리지않는 팀회의를 하는 방법  
-(How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(TEam meetings that don't suck)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 ![team](https://user-images.githubusercontent.com/72185011/200123577-0c6319ca-f95a-4827-bf84-8f6f45b66bd3.jpg)
 
 팀 역학에 대한 작은 변화가 어떻게 대부분의 생산성 문제와 무관심을 제거할 수 있을까? 안티 패턴을 사용하면 먼저 "나쁜" 회고에서 어떤 패턴이 반복되는지 확인한 다음 상황을 피하거나 해결하는 방법을 볼 수 있다. Aino는 팀이 수년 동안 경험한 도전과 이를 극복하는 방법에 대한 재미있고 유익한 프레젠테이션을 공유하는 강연이다.
 
 ### December
 **[우버를 1000개 서비스로 확장하기전에 알았더라면..
-(How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(Wish I had known before scaling uber to 1000 services)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
 ![uber](https://user-images.githubusercontent.com/72185011/200123677-a3e6939d-7160-484c-886d-1a5f5135db72.jpg)
 
 Uber의 수석 시스템 설계자, Voxer는 Uber의 성장에 발맞추기 위해 마이크로서비스를 수용했다.   
