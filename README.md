@@ -77,7 +77,7 @@ DDD의 기여와 DDD를 둘러싼 과장된 오해와 오용에 대해 이야기
 
 ### December
 **[우버를 1000개 서비스로 확장하기전에 알았더라면..
-(Wish I had known before scaling uber to 1000 services)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(Wish I had known before scaling uber to 1000 services)](https://github.com/JayFreemandev/Conference/tree/main/What%20I%20Wish%20I%20Had%20Known%20Before%20Scaling%20Uber%20to%201000%20Services)*  
 ![uber](https://user-images.githubusercontent.com/72185011/200123677-a3e6939d-7160-484c-886d-1a5f5135db72.jpg)
 
 Uber의 수석 시스템 설계자, Voxer는 Uber의 성장에 발맞추기 위해 마이크로서비스를 수용했다.   
