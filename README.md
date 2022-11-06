@@ -63,7 +63,7 @@ Dave Thomas는 애자일 선봉자중 한명이였지만 애자일은 죽었다�
 
 ### October
 **[도메인 주도 개발(DDD)는 과대 평가인가?
-(is DDD overrated?)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(is DDD overrated?)](https://github.com/JayFreemandev/Conference/tree/main/Is%20Domain-Driven%20Design%20Overrated%3F)*  
 ![ddd](https://user-images.githubusercontent.com/72185011/200123423-e6418606-4be2-41a9-9384-8c0050873822.jpg)
 
 DDD의 기여와 DDD를 둘러싼 과장된 오해와 오용에 대해 이야기하는 강연이다. 
