@@ -56,7 +56,7 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 
 ### September
 **[애자일은 죽었다  
-(Agile is dead)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(Agile is dead)](https://github.com/JayFreemandev/Conference/tree/main/Agile%20is%20Dead)*  
 ![agile](https://user-images.githubusercontent.com/72185011/200123020-4e67b5be-3754-4f61-ab86-4e940f547dbc.jpg)  
  
 Dave Thomas는 애자일 선봉자중 한명이였지만 애자일은 죽었다고한다. 왜 그런 생각을 가지게되었을지 또 그렇다면 어떻게 해야될지 애자일 산업에 대해 파해치는 강연이다.  
