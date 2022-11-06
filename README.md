@@ -70,7 +70,7 @@ DDD의 기여와 DDD를 둘러싼 과장된 오해와 오용에 대해 이야기
 
 ### November
 **[질리지않는 팀회의를 하는 방법  
-(TEam meetings that don't suck)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(TEam meetings that don't suck)](https://github.com/JayFreemandev/Conference/tree/main/Team%20Meetings%20That%20Don't%20Suck)*  
 ![team](https://user-images.githubusercontent.com/72185011/200123577-0c6319ca-f95a-4827-bf84-8f6f45b66bd3.jpg)
 
 팀 역학에 대한 작은 변화가 어떻게 대부분의 생산성 문제와 무관심을 제거할 수 있을까? 안티 패턴을 사용하면 먼저 "나쁜" 회고에서 어떤 패턴이 반복되는지 확인한 다음 상황을 피하거나 해결하는 방법을 볼 수 있다. Aino는 팀이 수년 동안 경험한 도전과 이를 극복하는 방법에 대한 재미있고 유익한 프레젠테이션을 공유하는 강연이다.
