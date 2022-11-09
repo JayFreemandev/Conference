@@ -46,7 +46,7 @@ adjective로써 an agile programmer, an agile gymnast and an agile methodology �
 
 애자일 선언문 이후 갈고리처럼 연결된 산업들이 컨설팅 판매를 위해 명사화되기 시작했다. Dave는 adjective인 green을 예로 들었는데 누군가에게 “초록 사실래요?” 이상하다. “Green Apple” 사실래요? Green Paint 사실래요로 바꾸고나서 성공적인 사업을 만들어냈다. 
 
-![Untitled 2](https://user-images.githubusercontent.com/72185011/200878479-231acde9-ca89-4b44-ac77-58afb6f14e1d.png)
+![Untitled 3](https://user-images.githubusercontent.com/72185011/200878931-2b93ba07-d213-4867-8cb1-d4c8ae4e5339.png)
 
 명사 “Agile”을 목적으로 한 컨설팅 강의, 책 그리고 훈련과 컨퍼런스를 통해 많은 돈을 쓸어모았다. 애자일 한사발 주십시요. 예. 이런 상황은 애자일 선언문의 정신과 본질을 흐려뜨렸다. 애자일이 판매산업이 심각한 이유는 두려움을 팔기때문이다.
 
