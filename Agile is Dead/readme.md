@@ -1,12 +1,10 @@
 # Agile is Dead
-
-![[https://developmentcorporate.com/wp-content/uploads/2021/08/agile-dead-00.jpg?is-pending-load=1](https://developmentcorporate.com/wp-content/uploads/2021/08/agile-dead-00.jpg?is-pending-load=1)](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled.png)
-
-[https://developmentcorporate.com/wp-content/uploads/2021/08/agile-dead-00.jpg?is-pending-load=1](https://developmentcorporate.com/wp-content/uploads/2021/08/agile-dead-00.jpg?is-pending-load=1)
+![Untitled](https://user-images.githubusercontent.com/72185011/200878291-0844781e-2f13-485a-86ca-f1d9e94c631e.png)
+[https://developmentcorporate.com/wp-content/uploads/2021/08/agile-dead-00.jpg?is-pending-load=1]
 
 ## 애자일 선언문
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/72185011/200878414-32740398-5fec-41ed-93d5-91a2275e8979.png)
 
 2000년대 초반 유타주에 있는 스노우버드 리조트에서 아래의 전설적인 개발자들 켄트 백, 로버트 C 마틴, 마틴 파울러, 데이브 토마스들이 모여 도원결의 하듯 애자일 선언문을 발표한다. 변화에 대응할수있는 소프트웨어를 민첩하게 만들자. 
 
@@ -39,7 +37,8 @@
 
 데이브 토마스는 애자일 도원결의 이후 세상의 이로운 파장을 일으켰다고 생각했지만 이후 그게 착각이였음을 느꼈다고한다.  애자일 적용 이후에 그 본질이 박살이 났기때문이다. 이제 사람들은 애자일 선언문으로 부터 **악의 근원**이 나왔다고 생각한다.
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/72185011/200878451-cfc4bee1-5fe4-4f01-a419-265c68b9607b.png)
+
 
 애자일은 명사가 아니라 형용사로써 ‘빠르고 쉽게 움직일수있는’ 이다. 지금부터 누군가 I am doing agile(나 애자일 하고있어)라고 말하는 사람이 있다면 찾아가서 그 스크럼 master 자격증을 갈기 갈기 찢어버릴거라고 경고한다 .
 
@@ -47,7 +46,7 @@ adjective로써 an agile programmer, an agile gymnast and an agile methodology �
 
 애자일 선언문 이후 갈고리처럼 연결된 산업들이 컨설팅 판매를 위해 명사화되기 시작했다. Dave는 adjective인 green을 예로 들었는데 누군가에게 “초록 사실래요?” 이상하다. “Green Apple” 사실래요? Green Paint 사실래요로 바꾸고나서 성공적인 사업을 만들어냈다. 
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%203.png)
+![Untitled 2](https://user-images.githubusercontent.com/72185011/200878479-231acde9-ca89-4b44-ac77-58afb6f14e1d.png)
 
 명사 “Agile”을 목적으로 한 컨설팅 강의, 책 그리고 훈련과 컨퍼런스를 통해 많은 돈을 쓸어모았다. 애자일 한사발 주십시요. 예. 이런 상황은 애자일 선언문의 정신과 본질을 흐려뜨렸다. 애자일이 판매산업이 심각한 이유는 두려움을 팔기때문이다.
 
@@ -59,23 +58,27 @@ insidious라고도 이야기했는데 내가 느낀점은 지적 허영심이였
 
 만약 당신이 루비 개발자고 테스트 커버리지가 100%가 아니다? 루비 커뮤니티에서는 당신을 루비 개발자라고 생각하지않는다. 아무리 잘 만든 소프트웨어라도 “관심없네요” 소리를 듣게된다. 애자일 선언문의 첫번째 서명자이자 실용주의 프로그래머 공동제작자인 Dave Thomas는 소신발언을 한다.
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/72185011/200878548-0115fa35-4966-4a1d-8cd6-ab09bdc565eb.png)
+
 
 “나는 대부분 테스트 안한다.” 우리 아들이 5살때 이야기다 텍사스에 살았고 그 지역이 종교적으로 보수적인곳이였다. 학교에 가면 신앙, 종교에 관한것들로 가득했고 아들을 반 미치게 만들었다. 어느 혈기 왕성한 5살답게 그네 위로 올라가서 “신이시여 정말 존재한다면 번개로 저를 후려주십쇼”를 3일 연속으로 제우스를 호출하자 학교에서 Dave에게 이러면 안된다고 전화가 왔다. 
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/72185011/200878591-684b5768-9139-4c71-8303-dc1b93e85ad7.png)
+
 
 이게 내가 테스트를 자주 안한다고 말할때 느끼는 감정이다.  (”나 테스트 안합니다.”)
 
 그 이유는 테스트로 얻은 이점이 설계 측면에서 오기 때문이다. 코드의 디자인과 인터페이스를 설계 하는데 도움을 주고 끈끈한 의존성들을 끊어버리는데도 도움을 준다. 복잡한 알고리즘을 테스트하긴 하지만 전체가 아니라 그래서 나는 일부분만 테스트한다.
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%206.png)
+
+![Untitled 6](https://user-images.githubusercontent.com/72185011/200878631-4f63a88a-c666-474b-a530-b9c00f1ede2d.png)
 
 루비 커뮤니티에서 뿐만 아니라 애자일에서도 일어나고있다. 우리처럼 해야됩니다. 우리가 알려주는 애자일 방식대로 안하면 잘못됬다는듯이 말이다. 명사로서의 애자일은 이미 산업화되어있다. 애자일 산업이라는 기계는 사람들의 두려움을 이용해 세금을 걷고 두려움을 없애기 위해 돈을 지불하게만든다.
 
 훌륭한 예시중 하나가 스크럼 연구 조직이다. 
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/72185011/200878649-c12d7feb-541d-44b6-91cc-0c9ad66dd55a.png)
+
 
 Dave가 앉아서 구글로 웹서핑을 하다가 사이드 팝업으로 튀어나온 광고다. 세상이 스크럼을 채택하고있다는것을 알고계십니까? 생각을 멈추시고 오늘 자격증을 받으십쇼!  스크럼이란거 자체가 매우 소규모 팀에게 적합한 방식이다. 
 
@@ -83,7 +86,7 @@ Dave가 앉아서 구글로 웹서핑을 하다가 사이드 팝업으로 튀어
 
 문제를 해결하는 두가지 방식이 있을때 미래에 좀 더 변화에 유연한 방법으로 해결해야한다. 
 
-![how.jpg](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/how.jpg)
+![how](https://user-images.githubusercontent.com/72185011/200878710-51aa4e36-7082-4fd9-b418-7633fde5b681.jpg)
 
 모든 전문가들은 어떻게 해야되고 무엇을 해야되는지 말하지만 틀렸다. 왜냐하면 No rules are universe. 모든 규칙에 보편적인 규칙은 없기때문이다. 예를 들어 칼로 사람을 위협하면 안된다는 규칙은 사회를 행복하고 안전하게 만든다.
 
@@ -95,7 +98,7 @@ Dave가 앉아서 구글로 웹서핑을 하다가 사이드 팝업으로 튀어
 
 Dave는 애자일 산업에 대한 해독제가 이미 존재한다고 생각한다.
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/72185011/200878789-bb8f690e-a0ba-4842-b9b5-80b8bac85cb5.png)
 
 소프트웨어를 만드는 주체는 사람이고 해답을 알고있는것또한 사람이다. 하지만 해답을 적용하기 위해서는 “용기”가 필요하다. 어떤 방법론이 두려움을 자극하던 거절할 용기가 필요하다. 어떤 실수가 작고 고칠수 있는지 한발자국씩 피드백받고 고쳐나가야된다.
 
@@ -107,7 +110,7 @@ Agile is not to do, Agility is how you do it
 
 스크럼에 대해서는 어떻게 생각하는가?
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/72185011/200878801-1010a031-d1c8-42a7-a921-22e8ed5ccfb9.png)
 
 얼차려가 아니라 이런식으로 일정에 관해 이야기하는 애자일의 요소중 하나이다. 실리콘 벨리의 소규모 스타트업에서 사용되었고 서로간의 작업 상황을 작은 단위로 공유하며 PM은 프로젝트의 전체적인 진행 상황을 체크한다.
 
@@ -119,11 +122,12 @@ Dave는 스크럼 자체는 매우 좋은 개념이지만 이걸 적용한다는
 
 2018년 런던 Aginext에서 열린 Egnineering Director, Pedro의 Agile 또한 
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/72185011/200878829-1c998659-1aab-4ea7-b23d-aaa3d46a3cd7.png)
+
 
 이게 애자일인가에 대한 의문점을 재기한다. 
 
-![Untitled](Agile%20is%20Dead%206320a780353846fcbb1acd20de9712f7/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/72185011/200878842-80750575-fd96-4d84-8678-1185bee7fc3f.png)
 
 회의가 지날수록 가지고 있던 문제점들이 해결되서 풀리는것이 아니라 폭발하면서 늘어나버린다.  애자일은 방법이 아니라 마인드셋이다. 민첩한 방법이 필요한게 아니라. 그냥 민첩하게 하면된다. 지금 가지고있는 일정들을 시각화 해서 지라나 컨플루언스에 등록하면 관리자들은 전체 상황을 분석하면 왜 진행이 안되고있나 누구는 왜 지금 그대로인가 놀고있는건가하는 생각을 하게된다. 
 
