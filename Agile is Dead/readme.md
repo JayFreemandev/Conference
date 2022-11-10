@@ -1,6 +1,6 @@
 # Agile is Dead
-![Untitled](https://user-images.githubusercontent.com/72185011/200878291-0844781e-2f13-485a-86ca-f1d9e94c631e.png)
-[https://developmentcorporate.com/wp-content/uploads/2021/08/agile-dead-00.jpg?is-pending-load=1]
+![Untitled](https://user-images.githubusercontent.com/72185011/200878291-0844781e-2f13-485a-86ca-f1d9e94c631e.png)  
+https://developmentcorporate.com/wp-content/uploads/2021/08/agile-dead-00.jpg?is-pending-load=1
 
 ## 애자일 선언문
 
