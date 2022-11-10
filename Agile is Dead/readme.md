@@ -61,6 +61,8 @@ Dave는 adjective인 green을 예로 들었는데 누군가에게 “초록 사�
 선언문 이후에 많은 단어들이 생겨났다 “칸반”, “스크럼”, “스파이크” 사람들은 생전 듣도 보지도 못한 단어에 겁을 먹기 시작했다.     
 저건 뭔지 설명해줄 전문가가 필요해! 그러고나서 계층적인 프로젝트 구조가 사라지고 대신에 스크럼 마스터가 등장하고 QA들이 사라지고 진행 상황을 미트볼? 을 사용하거나 Velocity(속도)를 측정하기 시작한다.  
 
+![image](https://user-images.githubusercontent.com/72185011/200997617-701f51e9-2a0b-4beb-8db7-678b59dc09f8.png)
+
 왜 그럴까? 우리는 개발자로써 반짝이고 새로운 기술에 대해 관심이 있는 사람들이다.   
 성공적으로 자리잡은 자바스크립트 라이브러리쓰다가 뭐 하다 새로 나온게 있으면 관심이 생기고 오 신기하다 오 써보고 싶다.  
 
@@ -183,3 +185,8 @@ How가 아닌 조직원들의 내적 동기와 개발 철학, 자유로운 조�
 'Agile'을 제대로 수행하지 않으면 실제 달성할 수 있는 것보다 훨씬 더 많은 결함과 더 느린 진행이 자주 발생하기 때문입니다.  우수한 개발자가 그런 회사를 떠나게 되면서, 결과적으로는 "Agile"을 도입하기 전보다 효율성이 떨어지는 기업이 됩니다."
 
 -Dave Thomas-
+
+### reference  
+[Agile is dead](https://www.youtube.com/watch?v=a-BOSpxYJ9M)  
+[Agile is Dead, McKinsey Just Killed It](https://terem.tech/agile-is-dead/)  
+[5 reasons why Agile is Dead in your organization](https://medium.com/swlh/5-reasons-why-agile-is-dead-in-your-organization-9869f15f231b)  
