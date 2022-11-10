@@ -183,6 +183,6 @@ How가 아닌 조직원들의 내적 동기와 개발 철학, 자유로운 조�
 -Dave Thomas-
 
 ### reference  
-[Agile is dead](https://www.youtube.com/watch?v=a-BOSpxYJ9M)  
-[Agile is Dead, McKinsey Just Killed It](https://terem.tech/agile-is-dead/)  
-[5 reasons why Agile is Dead in your organization](https://medium.com/swlh/5-reasons-why-agile-is-dead-in-your-organization-9869f15f231b)  
+[Agile is dead](https://www.youtube.com/watch?v=a-BOSpxYJ9M)    
+[Agile is Dead, McKinsey Just Killed It](https://terem.tech/agile-is-dead/)   
+[5 reasons why Agile is Dead in your organization](https://medium.com/swlh/5-reasons-why-agile-is-dead-in-your-organization-9869f15f231b)   
