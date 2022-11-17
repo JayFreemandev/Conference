@@ -140,7 +140,7 @@ JSON의 HATEOS를 보완하는 방법
 NO 하지만 하면 좋다. 회사에서 모두가 알고있다면 할 필요 없다.  
 </br>   
 
-**Conclusion**
+**Conclusion**  
 오늘날 대부분 REST API는 REST를 따르지 않는다(Self descriptive와 HATEOS),   
 REST는 긴 시간에 걸쳐 진화하는 웹 어플리케이션 설계를 목적으로 만들어졌다.     
 </br> 
