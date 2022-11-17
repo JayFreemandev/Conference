@@ -78,7 +78,7 @@ op가 뭔지, 어떤 HTTP인지 클라이언트가 받고 한눈에 알지못한
 
 애플리케이션의 상태는 Hyperlink를 이용해 전이되어야한다.
 
-![appli](https://user-images.githubusercontent.com/72185011/202478156-a17bc183-acd3-4444-9f97-28cccfb7cc61.jpg)  
+![appli](https://user-images.githubusercontent.com/72185011/202478156-a17bc183-acd3-4444-9f97-28cccfb7cc61.jpg)
 해당 페이지의 링크를 따라가며 상태가 전이 되었기에 HATEOAS하다.    
 </br>    
 
@@ -101,7 +101,6 @@ SOAP에 비해 REST가 단순하고 규칙이 적고 쉬워보이는건 착각�
 </br>   
 
 ![REST_API](https://user-images.githubusercontent.com/72185011/202478192-72ec9068-916c-4ecc-be3d-78ecf1759b54.jpg)
-
 1번을 파고들어보면 웹은 REST가 잘되는데 왜 API는 REST가 잘 안되는지에 대해 질문을 준다.
 
 웹페이지 경우 미디어 타입이 페이지인 HTML이지만 API는 JSON이다.   
@@ -126,9 +125,9 @@ Link: <httpsL//example.com/docs/blabla>, rel="profile"
 ```
 
 키와 값이 어떤것을 의미하는지에 대한 link를 남김으로써 sd를 보완할수있다.    
-단점은 클라이언트가 link 헤더와 profile을 이해해야한다는 단점이 있다.    
+단점은 클라이언트가 link 헤더와 profile을 이해해야한다는 단점이 있다.  
+</br>  
 	
-</br>   
 HATEOS → 애플리케이션 상태 전이의 late biding  
 어디서 어디로 전이 가능한지 미리 결정되지 않는다.     
 서버에서 링크 바꾼다고 클라이언트에서 동작유연하게 바뀐다. 어떤 페이지로 동작후 다음 동작을 할 수있다는점도 가지고있다.   
@@ -137,11 +136,12 @@ JSON의 HATEOS를 보완하는 방법
 ![Untitled 1](https://user-images.githubusercontent.com/72185011/202478248-623f2d76-b606-4f8e-9f1b-2658eaded5b7.png)
 혹은 Link나 Location 헤더를 통해 표현하는 방법도 가능하다.   
 </br>   
+
 **공식 REST 사이트에 Media Type 등록이 필수인가?**
 NO 하지만 하면 좋다. 회사에서 모두가 알고있다면 할 필요 없다.  
 </br>   
-**Conclusion**
 
+**Conclusion**
 오늘날 대부분 REST API는 REST를 따르지 않는다(Self descriptive와 HATEOS), REST는 긴 시간에 걸쳐 진화하는 웹 어플리케이션 설계를 목적으로 만들어졌다.   
 본인이 긴 시간에 걸쳐 진화하는 웹 어플리케이션을 만들어야한다면 REST를 따라 REST API를 설계하면 된다. 따르지 않는다면 HTTP API라고 부르는게 맞다.   
 하지만 REST API라고 부를 수는 있다. 설계자인 Roy가 매우 싫어할것이다. 트위터에도 블로그에도 니가 만든건 REST API가 아니라고 열띤 의견을 공유해주고 있다.  
