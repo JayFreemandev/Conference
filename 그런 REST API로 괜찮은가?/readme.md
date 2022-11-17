@@ -78,7 +78,7 @@ op가 뭔지, 어떤 HTTP인지 클라이언트가 받고 한눈에 알지못한
 
 애플리케이션의 상태는 Hyperlink를 이용해 전이되어야한다.
 
-![appli](https://user-images.githubusercontent.com/72185011/202478156-a17bc183-acd3-4444-9f97-28cccfb7cc61.jpg)
+![appli](https://user-images.githubusercontent.com/72185011/202478156-a17bc183-acd3-4444-9f97-28cccfb7cc61.jpg)  
 해당 페이지의 링크를 따라가며 상태가 전이 되었기에 HATEOAS하다.    
 </br>    
 
@@ -96,11 +96,11 @@ SOAP에 비해 REST가 단순하고 규칙이 적고 쉬워보이는건 착각�
 
 **내가 만드는 API가 꼭 REST 지켜야되나 너무 어렵다**
 
-![REST](https://user-images.githubusercontent.com/72185011/202478173-0dac8681-08ff-4e95-aab9-5cc17a7835eb.jpg)
+![REST](https://user-images.githubusercontent.com/72185011/202478173-0dac8681-08ff-4e95-aab9-5cc17a7835eb.jpg)  
 시스템 전체를 통제할수있다고 생각하거나 REST 생태계의 관심없다면 REST에 대해 따지느라 시간 낭비하지마라. -Roy Fielding-  
 </br>   
 
-![REST_API](https://user-images.githubusercontent.com/72185011/202478192-72ec9068-916c-4ecc-be3d-78ecf1759b54.jpg)
+![REST_API](https://user-images.githubusercontent.com/72185011/202478192-72ec9068-916c-4ecc-be3d-78ecf1759b54.jpg)  
 1번을 파고들어보면 웹은 REST가 잘되는데 왜 API는 REST가 잘 안되는지에 대해 질문을 준다.
 
 웹페이지 경우 미디어 타입이 페이지인 HTML이지만 API는 JSON이다.   
@@ -133,7 +133,7 @@ HATEOS → 애플리케이션 상태 전이의 late biding
 서버에서 링크 바꾼다고 클라이언트에서 동작유연하게 바뀐다. 어떤 페이지로 동작후 다음 동작을 할 수있다는점도 가지고있다.   
 
 JSON의 HATEOS를 보완하는 방법  
-![Untitled 1](https://user-images.githubusercontent.com/72185011/202478248-623f2d76-b606-4f8e-9f1b-2658eaded5b7.png)
+![Untitled 1](https://user-images.githubusercontent.com/72185011/202478248-623f2d76-b606-4f8e-9f1b-2658eaded5b7.png)  
 혹은 Link나 Location 헤더를 통해 표현하는 방법도 가능하다.   
 </br>   
 
