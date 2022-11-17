@@ -69,11 +69,10 @@ Dave Thomas는 애자일 선봉자중 한명이였지만 애자일은 죽었다�
 DDD의 기여와 DDD를 둘러싼 과장된 오해와 오용에 대해 이야기하는 강연이다. 
 
 ### November
-**[질리지않는 팀회의를 하는 방법  
-(TEam meetings that don't suck)](https://github.com/JayFreemandev/Conference/tree/main/Team%20Meetings%20That%20Don't%20Suck)*  
-![team](https://user-images.githubusercontent.com/72185011/200123577-0c6319ca-f95a-4827-bf84-8f6f45b66bd3.jpg)
-
-팀 역학에 대한 작은 변화가 어떻게 대부분의 생산성 문제와 무관심을 제거할 수 있을까? 안티 패턴을 사용하면 먼저 "나쁜" 회고에서 어떤 패턴이 반복되는지 확인한 다음 상황을 피하거나 해결하는 방법을 볼 수 있다. Aino는 팀이 수년 동안 경험한 도전과 이를 극복하는 방법에 대한 재미있고 유익한 프레젠테이션을 공유하는 강연이다.
+그런 REST API로 괜찮은가?   
+![api](https://user-images.githubusercontent.com/72185011/202465986-121bf7f1-3570-4a00-90d2-50fd7cfabbfb.jpg)  
+네이버에서 10년 가까이 생활하다 TOSS에서 새로운 출발을 시작한 이응준 개발자의 REST API 발표 영상이다.  
+-2017년 NAVER ENGINEERING DEVIEW-  
 
 ### December
 **[우버를 1000개 서비스로 확장하기전에 알았더라면..
