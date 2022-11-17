@@ -7,8 +7,7 @@
 
 **API 역사**
 
-![Untitled](https://user-images.githubusercontent.com/72185011/202478133-0ab38b4c-c820-46ad-8df5-e170e1c0994e.png)
-
+![roy](https://user-images.githubusercontent.com/72185011/202479950-8e6ff7a5-b73f-42d2-84c6-5e50f694ed97.jpg)
 
 세일즈포스가 세상의 첫 API를 공개했지만 사용하기 복잡한 이유로 외면되었다.   
 추후 REST라는 2000년도 논문을 인용한 API가 나오고 06년 AWS에서 자사 API 사용량의 85%가 REST인것을 언하기 시작했다.  
@@ -152,4 +151,5 @@ REST는 긴 시간에 걸쳐 진화하는 웹 어플리케이션 설계를 목�
 
 하지만 REST API라고 부를 수는 있다. 설계자인 Roy가 매우 싫어할것이다.   
 트위터에도 블로그에도 니가 만든건 REST API가 아니라고 열띤 의견을 공유해주고 있다.    
-마이크로소프트 오픈 소스에도 HTTP API로 고치라고 Pull Request를 보냈지만 마이크로소프트는 틀린거 알지만 REST API라고 부를거라고 알을 박았다.    
+마이크로소프트 오픈 소스에도 HTTP API로 고치라고 Pull Request를 보냈지만   
+마이크로소프트는 틀린거 알지만 REST API라고 부를거라고 알을 박았다.      
