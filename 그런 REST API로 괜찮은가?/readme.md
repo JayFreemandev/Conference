@@ -18,15 +18,15 @@
 
 **REST API란?**
 
-REST 아키텍쳐 스타일을 따르는 API가 REST API다.
+REST 아키텍쳐 스타일을 따르는 API가 REST API다.  
 </br>  
  
 **아키텍쳐 스타일이란?**
 
-제약 조건의 집합이라고 보면된다. 즉 이 제약조건들을 모두 지켜야 REST를 따르는것이라고 할수있다. 
-</br>   
+제약 조건의 집합이라고 보면된다. 즉 이 제약조건들을 모두 지켜야 REST를 따르는것이라고 할수있다.   
+</br>    
 
-**REST를 구성하는 스타일**
+**REST를 구성하는 스타일**  
 
 - clinet -server
 - stateless
@@ -35,7 +35,8 @@ REST 아키텍쳐 스타일을 따르는 API가 REST API다.
 - layered system
 - code on demand
 
-대부분의 조건들은 HTTP를 충족시키면 잘 지켜지지만 **uniform interface는 잘 지켜지지 않는다.**
+대부분의 조건들은 HTTP를 충족시키면 잘 지켜지지만 **uniform interface는 잘 지켜지지 않는다.**  
+</br>  
 
 **uniform interface의 제약조건**
 
@@ -44,7 +45,8 @@ REST 아키텍쳐 스타일을 따르는 API가 REST API다.
 - **self-descriptive messages**
 - **hypermedia as the engine of application state (HATEOAS)**
 
-마지막 두가지는 오늘날의 REST API가 지키지 못하고있다.
+마지막 두가지는 오늘날의 REST API가 지키지 못하고있다.  
+</br>  
 
 **self-descriptive messages**
 
@@ -69,7 +71,8 @@ Content-Type : application/json
 
 op가 뭔지, 어떤 HTTP인지 클라이언트가 받고 한눈에 알지못한다.
 반쪽짜리 **self-descriptive messages** 
-```
+```  
+</br>    
 
 **HATEOAS**
 
@@ -77,15 +80,15 @@ op가 뭔지, 어떤 HTTP인지 클라이언트가 받고 한눈에 알지못한
 
 ![appli](https://user-images.githubusercontent.com/72185011/202478156-a17bc183-acd3-4444-9f97-28cccfb7cc61.jpg)
 
-
-해당 페이지의 링크를 따라가며 상태가 전이 되었기에 HATEOAS하다.
+해당 페이지의 링크를 따라가며 상태가 전이 되었기에 HATEOAS하다.    
+</br>    
 
 **uniform interface는 왜 필요한가?**
 
-- 서버의 기능이 변경되어도 클라이언트를 업데이트할 필요가 없다
-
-서버와 클라이언트는 독립적으로 진화하며 REST의 계기인 “How do I imporove HTTP without breaking the Web.”을 충족시키기 위해서다. 웹 브라우저는 REST를 매우 잘 만족하고있기에 웹 페이지 변경했다고 웹 브라우저를 업데이트 할 필요가 없다.
-
+- 서버의 기능이 변경되어도 클라이언트를 업데이트할 필요가 없다.  
+서버와 클라이언트는 독립적으로 진화하며 REST의 계기인 “How do I imporove HTTP without breaking the Web.”을 충족시키기 위해서다.  
+웹 브라우저는 REST를 매우 잘 만족하고있기에 웹 페이지 변경했다고 웹 브라우저를 업데이트 할 필요가 없다.    
+</br>   
 **REST API 제약조건 몇개 안지켜도 되는거 아닌가?**
 
 하이퍼텍스트를 포함한 self decriptive한 메세지의 uniform interface를 통해 resource에 접근하는 API를 REST API라고 말하면 제약조건을 지켜야한다. -Roy Fielding-
