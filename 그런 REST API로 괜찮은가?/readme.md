@@ -6,7 +6,8 @@
 
 **API 역사**
 
-![Untitled](%E1%84%80%E1%85%B3%E1%84%85%E1%85%A5%E1%86%AB%20REST%20API%E1%84%85%E1%85%A9%20%E1%84%80%E1%85%AB%E1%86%AB%E1%84%8E%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%80%E1%85%A1%2081c7de97f43440a3b88ccf0a4ce602c4/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/72185011/202478133-0ab38b4c-c820-46ad-8df5-e170e1c0994e.png)
+
 
 세일즈포스가 세상의 첫 API를 공개했지만 사용하기 복잡한 이유로 외면되었다. 추후 REST라는 2000년도 논문을 인용한 API가 나오고 06년 AWS에서 자사 API 사용량의 85%가 REST인것을 언하기 시작했다.
 
@@ -69,7 +70,8 @@ op가 뭔지, 어떤 HTTP인지 클라이언트가 받고 한눈에 알지못한
 
 애플리케이션의 상태는 Hyperlink를 이용해 전이되어야한다.
 
-![appli.jpg](%E1%84%80%E1%85%B3%E1%84%85%E1%85%A5%E1%86%AB%20REST%20API%E1%84%85%E1%85%A9%20%E1%84%80%E1%85%AB%E1%86%AB%E1%84%8E%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%80%E1%85%A1%2081c7de97f43440a3b88ccf0a4ce602c4/appli.jpg)
+![appli](https://user-images.githubusercontent.com/72185011/202478156-a17bc183-acd3-4444-9f97-28cccfb7cc61.jpg)
+
 
 해당 페이지의 링크를 따라가며 상태가 전이 되었기에 HATEOAS하다.
 
@@ -87,11 +89,13 @@ SOAP에 비해 REST가 단순하고 규칙이 적고 쉬워보이는건 착각�
 
 **내가 만드는 API가 꼭 REST 지켜야되나 너무 어렵다**
 
-![REST.jpg](%E1%84%80%E1%85%B3%E1%84%85%E1%85%A5%E1%86%AB%20REST%20API%E1%84%85%E1%85%A9%20%E1%84%80%E1%85%AB%E1%86%AB%E1%84%8E%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%80%E1%85%A1%2081c7de97f43440a3b88ccf0a4ce602c4/REST.jpg)
+![REST](https://user-images.githubusercontent.com/72185011/202478173-0dac8681-08ff-4e95-aab9-5cc17a7835eb.jpg)
+
 
 시스템 전체를 통제할수있다고 생각하거나 REST 생태계의 관심없다면 REST에 대해 따지느라 시간 낭비하지마라. -Roy Fielding-
 
-![REST API.jpg](%E1%84%80%E1%85%B3%E1%84%85%E1%85%A5%E1%86%AB%20REST%20API%E1%84%85%E1%85%A9%20%E1%84%80%E1%85%AB%E1%86%AB%E1%84%8E%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%80%E1%85%A1%2081c7de97f43440a3b88ccf0a4ce602c4/REST_API.jpg)
+![REST_API](https://user-images.githubusercontent.com/72185011/202478192-72ec9068-916c-4ecc-be3d-78ecf1759b54.jpg)
+
 
 1번을 파고들어보면 웹은 REST가 잘되는데 왜 API는 REST가 잘 안되는지에 대해 질문을 준다.
 
@@ -123,7 +127,7 @@ HATEOS → 애플리케이션 상태 전이의 late biding
 
 JSON의 HATEOS를 보완하는 방법
 
-![Untitled](%E1%84%80%E1%85%B3%E1%84%85%E1%85%A5%E1%86%AB%20REST%20API%E1%84%85%E1%85%A9%20%E1%84%80%E1%85%AB%E1%86%AB%E1%84%8E%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%80%E1%85%A1%2081c7de97f43440a3b88ccf0a4ce602c4/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/72185011/202478248-623f2d76-b606-4f8e-9f1b-2658eaded5b7.png)
 
 혹은 Link나 Location 헤더를 통해 표현하는 방법도 가능하다. 
 
