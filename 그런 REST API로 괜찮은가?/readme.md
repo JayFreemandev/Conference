@@ -1,11 +1,11 @@
 # 그런 REST API로 괜찮은가?
 
-**REST가 어떤 계기로 나왔는가 ?**
+### **REST가 어떤 계기로 나왔는가 ?**
 
 91년도 World Wide Web이 나왔을때 어떻게 인터넷에서 정보를 공유 할 것인가? 모든 정보들을 하이퍼링크로 연결해서 전송하자.
 </br>  
 
-**API 역사**
+### **API 역사**
 
 ![roy](https://user-images.githubusercontent.com/72185011/202479950-8e6ff7a5-b73f-42d2-84c6-5e50f694ed97.jpg)
 
@@ -15,17 +15,17 @@
 즉 분산 하이퍼미디어 시스템, 웹을 위한 아키텍쳐 스타일인것이다.  
 </br>  
 
-**REST API란?**
+### **REST API란?**
 
 REST 아키텍쳐 스타일을 따르는 API가 REST API다.  
 </br>  
  
-**아키텍쳐 스타일이란?**
+### **아키텍쳐 스타일이란?**
 
 제약 조건의 집합이라고 보면된다. 즉 이 제약조건들을 모두 지켜야 REST를 따르는것이라고 할수있다.   
 </br>    
 
-**REST를 구성하는 스타일**  
+### **REST를 구성하는 스타일**  
 
 - clinet -server
 - stateless
@@ -37,7 +37,7 @@ REST 아키텍쳐 스타일을 따르는 API가 REST API다.
 대부분의 조건들은 HTTP를 충족시키면 잘 지켜지지만 **uniform interface는 잘 지켜지지 않는다.**  
 </br>  
 
-**uniform interface의 제약조건**
+### **uniform interface의 제약조건**
 
 - identification of resources
 - manipulation of resources through representations
@@ -88,12 +88,12 @@ op가 뭔지, 어떤 HTTP인지 클라이언트가 받고 한눈에 알지못한
 웹 브라우저는 REST를 매우 잘 만족하고있기에 웹 페이지 변경했다고 웹 브라우저를 업데이트 할 필요가 없다.    
 </br>   
 
-**REST API 제약조건 몇개 안지켜도 되는거 아닌가?**
+### **REST API 제약조건 몇개 안지켜도 되는거 아닌가?**
 하이퍼텍스트를 포함한 self decriptive한 메세지의 uniform interface를 통해 resource에 접근하는 API를 REST API라고 말하면 제약조건을 지켜야한다. -Roy Fielding-
 SOAP에 비해 REST가 단순하고 규칙이 적고 쉬워보이는건 착각이였다. 규칙이 많고 굉장히 어렵다.   
 </br>   
 
-**내가 만드는 API가 꼭 REST 지켜야되나 너무 어렵다**
+### **내가 만드는 API가 꼭 REST 지켜야되나 너무 어렵다**
 
 ![REST](https://user-images.githubusercontent.com/72185011/202478173-0dac8681-08ff-4e95-aab9-5cc17a7835eb.jpg)  
 시스템 전체를 통제할수있다고 생각하거나 REST 생태계의 관심없다면 REST에 대해 따지느라 시간 낭비하지마라. -Roy Fielding-  
@@ -142,7 +142,7 @@ HATEOS → 애플리케이션 상태 전이의 late biding
 NO 하지만 하면 좋다. 회사에서 모두가 알고있다면 할 필요 없다.   
 </br>   
 
-**Conclusion**  
+### **Conclusion**  
 오늘날 대부분 REST API는 REST를 따르지 않는다(Self descriptive와 HATEOS),   
 REST는 긴 시간에 걸쳐 진화하는 웹 어플리케이션 설계를 목적으로 만들어졌다.     
 </br> 
