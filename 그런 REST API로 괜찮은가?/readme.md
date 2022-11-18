@@ -104,14 +104,16 @@ SOAP에 비해 REST가 단순하고 규칙이 적고 쉬워보이는건 착각�
 
 웹페이지 경우 미디어 타입이 페이지인 HTML이지만 API는 JSON이다.   
 HTML에서는 <a> 태그를 이용해서 하이퍼링크를 걸수있지만 JSON을 할 수 없다.  
-또한 Self descriptive를 HTML 명세로 남길수있지만 JSON에는 방식이 불완전하다.  
+또한 Self descriptive를 HTML 명세로 남길수있지만 JSON에는 방식이 불완전하다.    
+<br>  
 
 JSON은 Self descriptive와 HATEOS를 만족시키지 못한다. 그렇다면 이 두가지가 독립적인 진화에 어떤 도움을 주는가?  
 
 Self descriptive → 확장 가능한 커뮤니케이션   
-서버나 클라이언트가 변경되더라도 오고가는 메세지는 언제나 sd 하므로 해석이 가능하다.  
+서버나 클라이언트가 변경되더라도 오고가는 메세지는 언제나 sd 하므로 해석이 가능하다.    
+<br>   
 
-JSON의 SD를 보완하는 방법
+#### JSON의 SD를 보완하는 방법
 
 ```java
 HTTO/1,1 200 OK
@@ -129,15 +131,15 @@ Link: <httpsL//example.com/docs/blabla>, rel="profile"
 	
 HATEOS → 애플리케이션 상태 전이의 late biding  
 어디서 어디로 전이 가능한지 미리 결정되지 않는다.     
-서버에서 링크 바꾼다고 클라이언트에서 동작유연하게 바뀐다. 어떤 페이지로 동작후 다음 동작을 할 수있다는점도 가지고있다.   
-
-JSON의 HATEOS를 보완하는 방법  
+서버에서 링크 바꾼다고 클라이언트에서 동작유연하게 바뀐다. 어떤 페이지로 동작후 다음 동작을 할 수있다는점도 가지고있다.     
+</br>   
+#### JSON의 HATEOS를 보완하는 방법  
 ![Untitled 1](https://user-images.githubusercontent.com/72185011/202478248-623f2d76-b606-4f8e-9f1b-2658eaded5b7.png)  
 혹은 Link나 Location 헤더를 통해 표현하는 방법도 가능하다.   
 </br>   
 
 **공식 REST 사이트에 Media Type 등록이 필수인가?**
-NO 하지만 하면 좋다. 회사에서 모두가 알고있다면 할 필요 없다.  
+NO 하지만 하면 좋다. 회사에서 모두가 알고있다면 할 필요 없다.   
 </br>   
 
 **Conclusion**  
