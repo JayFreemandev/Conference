@@ -98,7 +98,8 @@ SOAP에 비해 REST가 단순하고 규칙이 적고 쉬워보이는건 착각�
 ![REST](https://user-images.githubusercontent.com/72185011/202478173-0dac8681-08ff-4e95-aab9-5cc17a7835eb.jpg)  
 시스템 전체를 통제할수있다고 생각하거나 REST 생태계의 관심없다면 REST에 대해 따지느라 시간 낭비하지마라. -Roy Fielding-  
 </br>   
-
+</br>   
+  
 ![REST_API](https://user-images.githubusercontent.com/72185011/202478192-72ec9068-916c-4ecc-be3d-78ecf1759b54.jpg)  
 1번을 파고들어보면 웹은 REST가 잘되는데 왜 API는 REST가 잘 안되는지에 대해 질문을 준다.
 
