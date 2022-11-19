@@ -6,8 +6,7 @@ what domain driven design actually is so this is my attempt at to me this is an 
 should be completely obvious this should be the only way to build software** 
 
 기술적 측면보다 도메인 지식을 강조하는 소프트웨어 설계 방법 ****Stefan Tilkov****이 내린 정의이다. 도미노 피자 서비스라면 피자가 도메인이 될것이고 우리가 어떤문제를 해결할것인가 그것이 곧  도메인의 주체가 된다.
-
-![Untitled](DDD%2058f8083ad4d646bab5fbd4a29496a6ac/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/72185011/202837255-3923b14a-46ef-44a9-b8a7-1e1169da0286.png)
 
 Domain Languge의 창시자인 *Eric Evans*는 DDD에 대해 다음과 같이 정의한다. 
 
@@ -23,7 +22,8 @@ DDD is approach to the development of complex software in which we :
 
 구성원간의 의사소통외에도 설계 모델링이나 UML작성, 해당 설계를 바탕으로한 코드의 클래스명과 메소드명을 정하기때문에 유비쿼터스한 언어로 도메인의 의도를 정확하게 반영하고 전달해야한다.
 
-![Untitled](DDD%2058f8083ad4d646bab5fbd4a29496a6ac/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/72185011/202837260-b7798379-6d2c-4748-9dd0-4e8d3b6716af.png)
+
 
 **Tactical Pattern**
 
@@ -57,13 +57,12 @@ Loose Coupling  → 가벼운 설계
 
 각 마이크로 서비스는 위반하기 어려운 Bounded Context를 가지고 있다. 마이크로서비스는 마이크로서비스간의 상호의존성을 독립적으로 피하기 위해 높은 응집력과 낮은 결합력을 가져야 한다. 마이크로 서비스를 식별하는 것은 도메인, 트랜잭션 경계 및 잘 정의된 단일 목적에 대한 확실한 이해가 필요하기 때문에 말처럼 쉽지않다.
 
-![Untitled](DDD%2058f8083ad4d646bab5fbd4a29496a6ac/Untitled%202.png)
+
+![Untitled 2](https://user-images.githubusercontent.com/72185011/202837263-288946ef-f110-4d02-a33c-90854ba11203.png)
 
 MSA를 구성하는 필수 개념인 loose coupling과 high cohension또한 DDD의 핵심 요소중 하나이기에 서로 얽혀있으며 함께 사용된다.  **도메인들 간에는 Loose Coupling하고 도메인 내에서는 High Cohesion 해야 한다.**
 
 도메인을 잘게 나누는 것, 즉 Loose Coupling 시키는 것만이 능사가 아니라, 어떤 서비스들을 하나의 도메인으로 잘 묶어서 High Cohesion 하게 할지 설계하는 것까지가 DDD나 MSA가 추구하는 지향점이 되어야 한다.
-
-([https://helloworld.kurly.com/blog/ddd-msa-service-development/](https://helloworld.kurly.com/blog/ddd-msa-service-development/))
 
 **DDD is not silver bullet**
 
@@ -92,7 +91,8 @@ DDD란 무엇이고 어떤것을 추구하는 설계 디자인인지 어떠한 �
 
 중립적으로 장/단점을 가져와서 나열했지만 단점에 대한 목소리에 주장이 더 크게 실리기도한다. 최근 들어 애자일과 관련된 프로젝트 관리, 컨설팅쪽의 신드롬들이 소프트웨어에 많이 녹아있는것을 피부로 느끼고있고 막대한 장점보다는 
 
-![Untitled](DDD%2058f8083ad4d646bab5fbd4a29496a6ac/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/72185011/202837268-6b12c776-8d18-4a0b-9171-afb3a4991825.png)
+
 
 도메인 알러지같은 느낌이 더 강하게 들었다. 뭐든 잘 쓰면 좋겠지만은 컨설턴트들의 새로운 프로그램들보다는 기본에 충실하자라는게 매번 느낀 결론이였다. 애자일이든 DDD든 여기 저기 스며들어있는 하나의 industry다. 
 
