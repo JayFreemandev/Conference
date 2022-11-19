@@ -67,7 +67,7 @@ DDD의 기여와 DDD를 둘러싼 과장된 오해와 오용에 대해 이야기
 
 ### November
 [그런 REST API로 괜찮은가?](https://github.com/JayFreemandev/Conference/blob/main/%EA%B7%B8%EB%9F%B0%20REST%20API%EB%A1%9C%20%EA%B4%9C%EC%B0%AE%EC%9D%80%EA%B0%80%3F/readme.md)   
-[![api](https://user-images.githubusercontent.com/72185011/202465986-121bf7f1-3570-4a00-90d2-50fd7cfabbfb.jpg)](https://tv.naver.com/v/2292653)
+[![api](https://user-images.githubusercontent.com/72185011/202465986-121bf7f1-3570-4a00-90d2-50fd7cfabbfb.jpg)](https://tv.naver.com/v/2292653)  
 네이버에서 10년 가까이 생활하다 TOSS에서 새로운 출발을 시작한 이응준 개발자의 REST API 발표 영상이다.  
 -2017년 NAVER ENGINEERING DEVIEW-  
 
