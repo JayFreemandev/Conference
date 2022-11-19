@@ -49,7 +49,7 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 
 ### August 
 **[한 도메인을 깊이 vs 다양한 도메인  
-(Domain depth vs diversity)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+(Domain depth vs diversity)](https://github.com/JayFreemandev/Conference/blob/main/Domain%20depth%20vs%20diversity%20for%20Junior%20Developer/readme.md)*  
 [![t](https://user-images.githubusercontent.com/72185011/202849341-62434332-b285-4b82-b7cd-0053deea4d29.png)](https://www.youtube.com/watch?v=jbrIzLq67zs)  
 주니어때 한 도메인을 깊게 파야할까 아니면 여러 도메인을 넓게 파야할까?  
 
