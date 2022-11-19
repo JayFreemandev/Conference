@@ -6,10 +6,9 @@ what domain driven design actually is so this is my attempt at to me this is an 
 should be completely obvious this should be the only way to build software** 
 
 기술적 측면보다 도메인 지식을 강조하는 소프트웨어 설계 방법 ****Stefan Tilkov****이 내린 정의이다. 도미노 피자 서비스라면 피자가 도메인이 될것이고 우리가 어떤문제를 해결할것인가 그것이 곧  도메인의 주체가 된다.
-![Untitled](https://user-images.githubusercontent.com/72185011/202837255-3923b14a-46ef-44a9-b8a7-1e1169da0286.png)
 
-Domain Languge의 창시자인 *Eric Evans*는 DDD에 대해 다음과 같이 정의한다. 
-
+Domain Languge의 창시자인 *Eric Evans*는 DDD에 대해 다음과 같이 정의한다.  ![Untitled](https://user-images.githubusercontent.com/72185011/202837255-3923b14a-46ef-44a9-b8a7-1e1169da0286.png)
+ 
 DDD is approach to the development of complex software in which we : 
 
 1. focus on the core domain
