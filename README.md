@@ -47,37 +47,34 @@ SOLID를 완성하기위해 시도하지말고 유지보수를 완성하기위�
 열심히 개발한 코드도 쓸모가 없어질 수 있다 하지만 많은 사람과 의견을 나누면 짧은 시간에 보다 많은 문제를 해결하는 효율적인 진행이 가능하다.
 패트릭 윈스턴의 How to Speak 강연은 40년 이상 MIT에서 학생들의 말하기 능력을 향상시키기 위한 전통적인 강연이다. 
 
-### August
-**[코드 퀄리티를 올려야 하는 이유와 방법  
-(How to Speak)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
-![improve](https://user-images.githubusercontent.com/72185011/200123268-26820c36-eaaa-4bee-a912-a32304048ceb.jpg)
-
-빠르게 만들어야하는 압박감 속에 코드 품질을 잊기 쉽다. 시간이 지남에 따라 코드는 변형되고 더 읽기 어려워지기에 고통을 겪게 된다. Venkat는 좋은 품질의 코드를 유지해야하는 이유와 어떻게 각자 좋은 코드를 만드는데 참여할 수 있는지에 대해 논의하는 강연이다. 
+### August 
+**[한 도메인을 깊이 vs 다양한 도메인  
+(Domain depth vs diversity)](https://github.com/JayFreemandev/Conference/blob/main/How%20To%20Speak/README.MD)*  
+[![t](https://user-images.githubusercontent.com/72185011/202849341-62434332-b285-4b82-b7cd-0053deea4d29.png)](https://www.youtube.com/watch?v=jbrIzLq67zs)  
+주니어때 한 도메인을 깊게 파야할까 아니면 여러 도메인을 넓게 파야할까?  
 
 ### September
 **[애자일은 죽었다  
-(Agile is dead)](https://github.com/JayFreemandev/Conference/tree/main/Agile%20is%20Dead)*  
-![agile](https://user-images.githubusercontent.com/72185011/200123020-4e67b5be-3754-4f61-ab86-4e940f547dbc.jpg)  
- 
+(Agile is dead)](https://github.com/JayFreemandev/Conference/tree/main/Agile%20is%20Dead)*   
+[![agile](https://user-images.githubusercontent.com/72185011/200123020-4e67b5be-3754-4f61-ab86-4e940f547dbc.jpg)](https://www.youtube.com/watch?v=a-BOSpxYJ9M)  
 Dave Thomas는 애자일 선봉자중 한명이였지만 애자일은 죽었다고한다. 왜 그런 생각을 가지게되었을지 또 그렇다면 어떻게 해야될지 애자일 산업에 대해 파해치는 강연이다.  
 
 ### October
-**[도메인 주도 개발(DDD)는 과대 평가인가?
+**[도메인 주도 개발(DDD)는 과대 평가인가?  
 (is DDD overrated?)](https://github.com/JayFreemandev/Conference/tree/main/Is%20Domain-Driven%20Design%20Overrated%3F)*  
-![ddd](https://user-images.githubusercontent.com/72185011/200123423-e6418606-4be2-41a9-9384-8c0050873822.jpg)
-
+[![ddd](https://user-images.githubusercontent.com/72185011/200123423-e6418606-4be2-41a9-9384-8c0050873822.jpg)](https://www.youtube.com/results?search_query=DDD+is+overated)  
 DDD의 기여와 DDD를 둘러싼 과장된 오해와 오용에 대해 이야기하는 강연이다. 
 
 ### November
 [그런 REST API로 괜찮은가?](https://github.com/JayFreemandev/Conference/blob/main/%EA%B7%B8%EB%9F%B0%20REST%20API%EB%A1%9C%20%EA%B4%9C%EC%B0%AE%EC%9D%80%EA%B0%80%3F/readme.md)   
-![api](https://user-images.githubusercontent.com/72185011/202465986-121bf7f1-3570-4a00-90d2-50fd7cfabbfb.jpg)  
+[![api](https://user-images.githubusercontent.com/72185011/202465986-121bf7f1-3570-4a00-90d2-50fd7cfabbfb.jpg)](https://tv.naver.com/v/2292653)
 네이버에서 10년 가까이 생활하다 TOSS에서 새로운 출발을 시작한 이응준 개발자의 REST API 발표 영상이다.  
 -2017년 NAVER ENGINEERING DEVIEW-  
 
 ### December
-**[우버를 1000개 서비스로 확장하기전에 알았더라면..
+**[우버를 1000개 서비스로 확장하기전에 알았더라면..  
 (Wish I had known before scaling uber to 1000 services)](https://github.com/JayFreemandev/Conference/tree/main/What%20I%20Wish%20I%20Had%20Known%20Before%20Scaling%20Uber%20to%201000%20Services)*  
-![uber](https://user-images.githubusercontent.com/72185011/200123677-a3e6939d-7160-484c-886d-1a5f5135db72.jpg)
+[![uber](https://user-images.githubusercontent.com/72185011/200123677-a3e6939d-7160-484c-886d-1a5f5135db72.jpg)](https://www.youtube.com/watch?v=kb-m2fasdDY)  
 
 Uber의 수석 시스템 설계자, Voxer는 Uber의 성장에 발맞추기 위해 마이크로서비스를 수용했다.   
 이로 인해 2016년 3월 초에 1,000개 이상의 프로덕션 서비스를 넘어 새로운 서비스가 폭발적으로 증가했고.   
