@@ -5,7 +5,8 @@
 what domain driven design actually is so this is my attempt at to me this is an approach to **designing software that puts the domain at the center and that seems to be something that
 should be completely obvious this should be the only way to build software** 
 
-기술적 측면보다 도메인 지식을 강조하는 소프트웨어 설계 방법 ****Stefan Tilkov****이 내린 정의이다. 도미노 피자 서비스라면 피자가 도메인이 될것이고 우리가 어떤문제를 해결할것인가 그것이 곧  도메인의 주체가 된다.
+기술적 측면보다 도메인 지식을 강조하는 소프트웨어 설계 방법 ****Stefan Tilkov****이 내린 정의이다.   
+도미노 피자 서비스라면 피자가 도메인이 될것이고 우리가 어떤문제를 해결할것인가 그것이 곧  도메인의 주체가 된다.
 
 Domain Languge의 창시자인 *Eric Evans*는 DDD에 대해 다음과 같이 정의한다.  ![Untitled](https://user-images.githubusercontent.com/72185011/202837255-3923b14a-46ef-44a9-b8a7-1e1169da0286.png)
  
@@ -14,37 +15,42 @@ DDD is approach to the development of complex software in which we :
 1. focus on the core domain
 2. explore models in a creative collaboration of domain practitioners and software practitioners
 3. speak a ubiquitous language within an explicitly bounded context
+<br>
 
 **Ubiquitous Language**
 
-개발자와 비개발자가 모두 알아 들을수있는 모델을 기반으로한 언어를 사용하는것이 첫번째 핵심 원칙이다. 프로젝트에 참여한 사람들이 서로 이해하지 못한다면 프로젝트를 성공적으로 이끌 수 없다.
+개발자와 비개발자가 모두 알아 들을수있는 모델을 기반으로한 언어를 사용하는것이 첫번째 핵심 원칙이다.   
+프로젝트에 참여한 사람들이 서로 이해하지 못한다면 프로젝트를 성공적으로 이끌 수 없다.
 
 구성원간의 의사소통외에도 설계 모델링이나 UML작성, 해당 설계를 바탕으로한 코드의 클래스명과 메소드명을 정하기때문에 유비쿼터스한 언어로 도메인의 의도를 정확하게 반영하고 전달해야한다.
 
 ![Untitled 1](https://user-images.githubusercontent.com/72185011/202837260-b7798379-6d2c-4748-9dd0-4e8d3b6716af.png)
 
-
 **Tactical Pattern**
 
 Layered Architecture, Value Object, Aggregate, Domain Events, Factories, Repositories, Entity
 
-도메인 전문가 및 기술팀이 함께 모여 유비쿼터스 언어를 통해 도메인 지식을 공유 및 이해하고 이를 기준으로 개념과 경계를 식별해 바운디드 컨텍스트(bounded context)로 정의하고 경계의 관계를 컨텍스트 맵(context map)으로 정의.
-
+도메인 전문가 및 기술팀이 함께 모여 유비쿼터스 언어를 통해 도메인 지식을 공유 및 이해하고 이를 기준으로 개념과 경계를 식별해 바운디드 컨텍스트(bounded context)로 정의하고 경계의 관계를 컨텍스트 맵(context map)으로 정의.  
+<br>
+  
 **Strategic design**
 
 Context, Model, Ubiquitous Language, Bounded Context, Context Map, Damain Model
 
-전략적 설계에서 도출된 바운디드 컨텍스트와 도메인을 이용하여 애그리거트 패턴, 엔티티와 값 객체, 레포지토리, 등을 구성하고 구현.
+전략적 설계에서 도출된 바운디드 컨텍스트와 도메인을 이용하여 애그리거트 패턴, 엔티티와 값 객체, 레포지토리, 등을 구성하고 구현.  
+<br>
 
 **Should design be domain-driven?**
 
-DDD가 실제로 원하는 목적이 뭘까, 소프트웨어와 연관된 부분들을 연결하여 진화하는 모델을 만들어 복잡한 어플리케이션을 쉽게 만들어 가는 것이다. 
+DDD가 실제로 원하는 목적이 뭘까, 소프트웨어와 연관된 부분들을 연결하여 진화하는 모델을 만들어 복잡한 어플리케이션을 쉽게 만들어 가는 것이다.   
+<br>
 
 Loose Coupling  → 가벼운 설계
 
 소프트웨어의 위기와 커뮤니케이션 문제를 해결하기 위해 탄생하였다.
 
-전체적인 강연의 흐름은 구체적인 예시보다 처음 들어보는 개념들로 장점을 설명하며 30분이 흘렀는데 좋은 내용을 정리하기에는 상당히 많은 반발들이 존재했기에 중립을 지키면서 내가 이해한 개념을 정리하려고한다. 
+전체적인 강연의 흐름은 구체적인 예시보다 처음 들어보는 개념들로 장점을 설명하며 30분이 흘렀는데 좋은 내용을 정리하기에는 상당히 많은 반발들이 존재했기에 중립을 지키면서 내가 이해한 개념을 정리하려고한다.  
+<br>
 
 **Microservice**
 
