@@ -5,30 +5,27 @@
 ### January
 
 **[자바 코드 성능 향상을 위한 10가지 팁
-(10 Tips To Improve Your Java Code Performance)]()**
-[![10 Tips To Improve Your Java Code Performance](https://user-images.githubusercontent.com/72185011/158063126-5b8e377e-215b-4fc1-8f1c-f04b33e2cd2b.png)](https://www.youtube.com/watch?v=frhNwZo_eQE)
+(10 Tips To Improve Your Java Code Performance)]()**  
+[![10 Tips To Improve Your Java Code Performance](https://user-images.githubusercontent.com/72185011/158063126-5b8e377e-215b-4fc1-8f1c-f04b33e2cd2b.png)](https://www.youtube.com/watch?v=frhNwZo_eQE)  
 10 Tips To Improve Your Java Code Performance  
-https://www.youtube.com/watch?v=frhNwZo_eQE
+https://www.youtube.com/watch?v=frhNwZo_eQE  
 https://www.youtube.com/watch?v=3_hbW6PPCBM
 
 ### February
 
 **[함수형 언어(자바) 
-(Functional Programming)]()**
-[![Functional Programming](https://user-images.githubusercontent.com/72185011/158063126-5b8e377e-215b-4fc1-8f1c-f04b33e2cd2b.png)](https://www.youtube.com/watch?v=0if71HOyVjY)
+(Functional Programming)]()**  
+[![Functional Programming]()](https://www.youtube.com/watch?v=0if71HOyVjY)  
 함수형 언어 Russ Olsen • GOTO 2018  
 https://www.youtube.com/watch?v=0if71HOyVjY  
 
 ### March  
 
 **[모던 자바를 이용한 클린코드 
-(Functional Programming)]()**
-[![Functional Programming](https://user-images.githubusercontent.com/72185011/158063126-5b8e377e-215b-4fc1-8f1c-f04b33e2cd2b.png)](https://www.youtube.com/watch?v=uEHJ5CHaF08)
-Writing cleancode withmodern Java. Miro Cupak, Dnastack
-https://www.youtube.com/watch?v=0if71HOyVjY  
-
-
-https://www.youtube.com/watch?v=uEHJ5CHaF08
+(Writing cleancode withmodern Java)]()**  
+[![Writing cleancode withmodern Java]()](https://www.youtube.com/watch?v=uEHJ5CHaF08)  
+Writing cleancode withmodern Java. Miro Cupak, Dnastack  
+https://www.youtube.com/watch?v=uEHJ5CHaF08  
 
 ## 2022
 
