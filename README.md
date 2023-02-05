@@ -6,10 +6,8 @@
 
 **[자바 코드 성능 향상을 위한 10가지 팁 + Enum 리팩토링
 (10 Tips To Improve Your Java Code Performance)](https://github.com/JayFreemandev/Conference/blob/main/10%20Tips%20To%20Improve%20Your%20Java%20Code%20Performance/readme.md)**  
-[![10 Tips To Improve Your Java Code Performance](https://user-images.githubusercontent.com/72185011/215317836-596e9bd3-1ff2-4399-82a2-6a503000213c.jpg)](https://www.youtube.com/watch?v=frhNwZo_eQE)  
-10 Tips To Improve Your Java Code Performance  
-https://www.youtube.com/watch?v=frhNwZo_eQE  
-https://www.youtube.com/watch?v=3_hbW6PPCBM
+[![10 Tips To Improve Your Java Code Performance](https://user-images.githubusercontent.com/72185011/215317836-596e9bd3-1ff2-4399-82a2-6a503000213c.jpg)](https://www.youtube.com/watch?v=frhNwZo_eQE)   
+10 Tips To Improve Your Java Code Performance + [Enum 리팩토링](https://www.youtube.com/watch?v=3_hbW6PPCBM)  
 
 ### February
 
