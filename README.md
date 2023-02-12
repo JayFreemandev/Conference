@@ -10,14 +10,15 @@
 10 Tips To Improve Your Java Code Performance + [Enum 리팩토링](https://www.youtube.com/watch?v=3_hbW6PPCBM)  
 
 ### February
+네이버 deview 2023
 
+### March  
 **[함수형 언어(자바) 
 (Functional Programming)](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
 [![Functional Programming](https://user-images.githubusercontent.com/72185011/216800497-c2f8a3ba-f32b-4e4e-89f3-30c2e7f60b91.jpg)](https://www.youtube.com/watch?v=0if71HOyVjY)  
 함수형 언어 Russ Olsen • GOTO 2018
 
-### March  
-
+### April 
 **[모던 자바를 이용한 클린코드 
 (Writing cleancode withmodern Java)]()**  
 [![Writing cleancode withmodern Java]()](https://www.youtube.com/watch?v=uEHJ5CHaF08)  
