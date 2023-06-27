@@ -11,19 +11,32 @@
 
 ### February
 [SCDF로 하루 N만곡 이상 데이터 실시간으로 적재하기(네이버 바이브)](https://github.com/JayFreemandev/Conference/tree/main/%EB%84%A4%EC%9D%B4%EB%B2%84%20%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EB%B0%B0%EC%B9%98%20%EA%B0%9C%EC%84%A0)
-
+Batch Performance 극한으로 끌어올리기: 1억 건 데이터 처리를 위한 노력(카카오 DEV 2022)[https://www.youtube.com/watch?v=2IIwQDIi3ys&list=PLyraqdoIVJhmCIlhXAYjZwqwxT5Ih1kBG&index=7]
 ### March  
-**[함수형 언어(자바) 
-(Functional Programming)](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![Functional Programming](https://user-images.githubusercontent.com/72185011/216800497-c2f8a3ba-f32b-4e4e-89f3-30c2e7f60b91.jpg)](https://www.youtube.com/watch?v=0if71HOyVjY)  
-함수형 언어 Russ Olsen • GOTO 2018
-
+**[당근마켓 gRPC 서비스 운영 노하우](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
+MSA(Micro service Architecture) 적용 고군 분투기(삼성 sds)[https://www.youtube.com/watch?v=1SgmZQsUurE]
+11번가 Spring Cloud 기반 MSA로의 전환(https://www.youtube.com/watch?v=J-VP0WFEQsY)
 ### April 
-**[모던 자바를 이용한 클린코드 
-(Writing cleancode withmodern Java)]()**  
-[![Writing cleancode withmodern Java]()](https://www.youtube.com/watch?v=uEHJ5CHaF08)  
-Writing cleancode withmodern Java. Miro Cupak, Dnastack  
-https://www.youtube.com/watch?v=uEHJ5CHaF08  
+회원시스템 이벤트기반 아키텍처 구축하기(배달의민족)[https://www.youtube.com/watch?v=b65zIH7sDug]  
+실버바인 대기열 서버 설계 리뷰[https://www.youtube.com/watch?v=3pO9GJ4zndE]
+### May
+<쿠키런: 킹덤〉 서버 아키텍처 뜯어먹기(https://www.youtube.com/watch?v=FUEZibcZEkg)  
+실버바인 대기열 서버 설계 리뷰(https://www.youtube.com/watch?v=3pO9GJ4zndE)  
+Terraform을 이용한 IaC 기반 인프라 운영(https://www.youtube.com/watch?v=aTUnOf244Cs)
+### June
+인프런 아키텍처의 과거, 현재 그리고 미래(이동욱)(https://www.youtube.com/watch?v=D_QH50UkX_4)  
+Reveal2021 - 쿠팡의 대규모 트래픽을 다루는 백앤드 전략(https://www.youtube.com/watch?v=qzHjK1-07fI&t=1297s)  
+쿠팡이 최고의 고객 경험을 위해 장애에 대처하는 방법(https://www.youtube.com/watch?v=Y6Tfsd9S6GU)  
+대규모 트래픽 애플리케이션 성능 튜닝(https://www.youtube.com/watch?v=5oTlFJ0llNw)  
+새해 0시, 라인이 대규모 트래픽을 처리하는 방법(https://www.youtube.com/watch?v=igw8oUQBXtc)  
+### July
+분산 시스템에서 데이터를 전달하는 효율적인 방법(https://www.youtube.com/watch?v=uk5fRLUsBfk)  
+편안한 휴식 시간을 지켜줄 안정적인 백엔드 운영과 개발 기법(https://www.youtube.com/watch?v=2hCbY_mpqSgC)  
+대규모 트래픽 글로벌 서비스는 어떻게 설계할까?(https://www.youtube.com/watch?v=P0z14EJvnjE)  
+LINE 오픈챗 서버가 100배 급증하는 트래픽을 다루는 방법(https://www.youtube.com/watch?v=L5ZjChLvd7U)  
+배달의민족 마이크로서비스 여행기(https://youtu.be/BnS6343GTkY)
+### August
+...
 
 ## 2022
 
