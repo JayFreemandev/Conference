@@ -124,6 +124,25 @@ for(int x=0; x<size; i++) o
 
 5,6,7,10은 이해불가
 
+https://www.youtube.com/watch?v=uEHJ5CHaF08
+
+Refactoring Java Code: How to refactor code to write cleaner and more maintainable code.
+https://www.youtube.com/watch?v=u4Dc_Pzl-50&t=792s
+
+Refactoring Code for Cleaner Code: Decompose conditional logic and extract function
+https://www.youtube.com/watch?v=T3iTI2uEwkc&list=PLQ07BhiT-NEm5LfLO47rDLoFF_FmI2g71&index=3
+
+Victor Rentea
+https://www.youtube.com/watch?v=F02LKnWJWF4&t=312s
+
+Victor 리팩토링 영상
+https://www.youtube.com/watch?v=iOYsxBvMkLk&t=2489s
+
+optional
+https://www.youtube.com/watch?v=vKVzRbsMnTQ
+
+
+
 **reference**
 
 [https://www.youtube.com/watch?v=frhNwZo_eQE](https://www.youtube.com/watch?v=frhNwZo_eQE)
