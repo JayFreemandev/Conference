@@ -24,7 +24,7 @@
 [![MSA 적용 고군 분투기(삼성 SDS)](https://github.com/JayFreemandev/Conference/assets/72185011/aa8ca745-abce-4dca-acaa-bc73b64a9f1a)](https://www.youtube.com/watch?v=1SgmZQsUurE)
 <hr>
 
-**[11번가 Spring Cloud 기반 MSA로의 전환](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
+**[11번가 Spring Cloud 기반 MSA로의 전환(GOAT)](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
 [![11번가 Spring Cloud 기반 MSA로의 전환](https://github.com/JayFreemandev/Conference/assets/72185011/bbe10d18-47dc-4b64-a632-c342b8cbfa47)](https://www.youtube.com/watch?v=J-VP0WFEQsY)
 ### April 
 **[회원시스템 이벤트기반 아키텍처 구축하기(배달의민족)](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
