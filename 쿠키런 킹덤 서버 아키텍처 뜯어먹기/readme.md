@@ -20,8 +20,7 @@ RPS 초당 서버에 전송되는 요청의 수
 
 **Stateful 서버구조**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c19c18ef-0d8f-4a3f-850b-969b1eb75894/Untitled.png)
-
+![img_2.png](img_2.png)
 특정 유저의 요청을 처리할 수 있는 게임 서버는 한 개로 특정되기 때문에 로드밸런서가 유저와 게임서버간 매핑을 잘 관리해야된다. 특정 유저가 어떤 게임 서버에도 할당되있지 않다면 특정 서버를 로드밸런서가 할당하게한다.
 
 이후 할당된 서버로만 요청을 받게된다. 여기서 킹덤은 Stateful 구조를 선택하게 되었는데 왜 확장성을 포기하고 세션을 저장하는 방식을 선택했는가?
@@ -72,8 +71,7 @@ CRUD : 디비 스케마 설계하고 CRUD 쿼리를 이용해 상태를 저장�
 
 이 방법은 특정 번호의 이벤트까지 리플레이된 상태를 미리 저장해둠으로써 다음부터는 처음부터 리플레이 하지 않도록 하는 최적화 방법이다. 즉, 리플레이시 스냅샷 테이블에서 가장 최신의 상태를 가져오고 그 이후의 이벤트들에 대해서만 리플레이를 수행하게 된다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/635592d0-0fa0-456c-8be6-11490916b0ef/Untitled.png)
-
+![img_3.png](img_3.png)
 스냅샷에서 3번 이벤트를 가져오고 그 이후의 이벤트인 4번 이벤트만 리플레이를 수행하게 된다.
 
 **스냅샷에 대한 고민**
@@ -115,12 +113,10 @@ CRUD : 디비 스케마 설계하고 CRUD 쿼리를 이용해 상태를 저장�
 
 친구 요청 기능
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d925c66-9fc6-4207-93e7-86a1a71cb448/Untitled.png)
-
+![img_4.png](img_4.png)
 여기서 예외 상황
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/501eb0c4-8f01-493e-bea7-89b48ee6bbc8/Untitled.png)
-
+![img_5.png](img_5.png)
 b로 가는 메세지 송신이 실패했을대 a에서만 이벤트 발생하면 일관성이 깨지게되는데 이럼 어쩔거냐?
 
 **계속 재시도 한다**
@@ -150,8 +146,7 @@ b로 가는 메세지 송신이 실패했을대 a에서만 이벤트 발생하�
 
 **여러 예외 상황 핸들링 없이 그냥 트랜잭션하고싶어서 2PC 사용**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6641c7a2-91e1-4449-9187-1c174c6f6327/Untitled.png)
-
+![img_6.png](img_6.png)
 2PC는 크게 두가지 스텝으로 나뉜다. 준비 단계와 커밋 단계이다. 여기서 발생한 이벤트들을 DB에 직접 저장하는 것이 아니라 API에게 반환하게 된다.
 
 API가 A와 B에서 발생한 이벤트들을 모아서 한번에 DB에 저장해주게된다.  한나의 트랜잭션으로 저장하기 때문에 사가 패턴과는 달리 강력한 일관성 보장이 가능해진다.

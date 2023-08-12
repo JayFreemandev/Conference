@@ -79,12 +79,10 @@
 <hr>
 
 ### August
-**[카카오와 몽고DB 사례](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![카카오와 몽고DB 사례](https://github.com/JayFreemandev/Conference/assets/72185011/126e3fc5-e2ee-4d53-8054-1e290d9c8c6f)](https://youtu.be/BnS6343GTkY)
+카카오와 몽고DB 사례
 <hr>
 
-**[CAP 이론을 통한 네트워크 동기화 기법](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![CAP 이론을 통한 네트워크 동기화 기법](https://github.com/JayFreemandev/Conference/assets/72185011/126e3fc5-e2ee-4d53-8054-1e290d9c8c6f)](https://youtu.be/BnS6343GTkY)
+CAP 이론을 통한 네트워크 동기화 기법
 <hr>
 
 ## 2022
