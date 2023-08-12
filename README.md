@@ -38,12 +38,6 @@
 [![<쿠키런: 킹덤〉 서버 아키텍처 뜯어먹기](https://github.com/JayFreemandev/Conference/assets/72185011/d14b3a07-6952-4b72-8d5f-a12c1556d2bd)](https://www.youtube.com/watch?v=FUEZibcZEkg)
 <hr>
 
-**[Terraform을 이용한 IaC 기반 인프라 운영](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![Terraform을 이용한 IaC 기반 인프라 운영](https://github.com/JayFreemandev/Conference/assets/72185011/b79e05f1-a994-4060-a1f3-89b38e1761a6)](https://www.youtube.com/watch?v=aTUnOf244Cs)
-<hr>
-
-**[MSA에서 조금 쉽게 트랜잭션(Transaction) 처리하기](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![MSA에서 조금 쉽게 트랜잭션(Transaction) 처리하기](https://github.com/JayFreemandev/Conference/assets/72185011/767e86b1-d88d-49d9-a5db-4b1b26886925)](https://youtu.be/U_TvOgZXK8k)
 ### June
 **[인프런 아키텍처의 과거, 현재 그리고 미래(이동욱)](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
 [![인프런 아키텍처의 과거, 현재 그리고 미래(이동욱)](https://github.com/JayFreemandev/Conference/assets/72185011/03b5106d-1a9a-4c79-a023-be58fb1964ef)](https://www.youtube.com/watch?v=D_QH50UkX_4)
@@ -85,7 +79,13 @@
 <hr>
 
 ### August
-...
+**[카카오와 몽고DB 사례](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
+[![카카오와 몽고DB 사례](https://github.com/JayFreemandev/Conference/assets/72185011/126e3fc5-e2ee-4d53-8054-1e290d9c8c6f)](https://youtu.be/BnS6343GTkY)
+<hr>
+
+**[CAP 이론을 통한 네트워크 동기화 기법](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
+[![CAP 이론을 통한 네트워크 동기화 기법](https://github.com/JayFreemandev/Conference/assets/72185011/126e3fc5-e2ee-4d53-8054-1e290d9c8c6f)](https://youtu.be/BnS6343GTkY)
+<hr>
 
 ## 2022
 
