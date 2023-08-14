@@ -15,11 +15,7 @@
 [![Batch Performance 극한으로 끌어올리기](https://github.com/JayFreemandev/Conference/assets/72185011/3455a77f-56af-455f-80cd-ba1c47bfcc66)](https://www.youtube.com/watch?v=2IIwQDIi3ys&list=PLyraqdoIVJhmCIlhXAYjZwqwxT5Ih1kBG&index=7)
 <hr>
 
-### March  
-**[당근마켓 gRPC 서비스 운영 노하우](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![당근마켓 gRPC 서비스 운영 노하우](https://github.com/JayFreemandev/Conference/assets/72185011/95ca5de2-9577-472f-97dc-2a1540ff3fdc)](https://www.youtube.com/watch?v=2IIwQDIi3ys&list=PLyraqdoIVJhmCIlhXAYjZwqwxT5Ih1kBG&index=7)
-<hr>
-
+### March
 **[MSA 적용 고군 분투기(삼성 SDS)](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
 [![MSA 적용 고군 분투기(삼성 SDS)](https://github.com/JayFreemandev/Conference/assets/72185011/aa8ca745-abce-4dca-acaa-bc73b64a9f1a)](https://www.youtube.com/watch?v=1SgmZQsUurE)
 <hr>
@@ -31,8 +27,6 @@
 [![회원시스템 이벤트기반 아키텍처 구축하기(배달의민족)](https://github.com/JayFreemandev/Conference/assets/72185011/b4fc40bc-1b84-4df1-83b8-942ef08f4895)](https://www.youtube.com/watch?v=b65zIH7sDug)
 <hr>
 
-**[실버바인 대기열 서버 설계 리뷰](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![실버바인 대기열 서버 설계 리뷰](https://github.com/JayFreemandev/Conference/assets/72185011/c82de316-f795-49c1-9b86-2c5bd6160d53)](https://www.youtube.com/watch?v=3pO9GJ4zndE)
 ### May
 **[<쿠키런: 킹덤〉 서버 아키텍처 뜯어먹기](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
 [![<쿠키런: 킹덤〉 서버 아키텍처 뜯어먹기](https://github.com/JayFreemandev/Conference/assets/72185011/d14b3a07-6952-4b72-8d5f-a12c1556d2bd)](https://www.youtube.com/watch?v=FUEZibcZEkg)
@@ -55,14 +49,12 @@
 [![대규모 트래픽 애플리케이션 성능 튜닝](https://github.com/JayFreemandev/Conference/assets/72185011/d0e98fdb-a91d-4be0-b1ca-ce22d28c1abe)](https://www.youtube.com/watch?v=5oTlFJ0llNw)
 <hr>
 
-**[새해 0시, 라인이 대규모 트래픽을 처리하는 방법](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![새해 0시, 라인이 대규모 트래픽을 처리하는 방법](https://github.com/JayFreemandev/Conference/assets/72185011/b18826a6-c24e-4efb-9a33-aea3358e4285)](https://www.youtube.com/watch?v=igw8oUQBXtc)
 ### July
 **[분산 시스템에서 데이터를 전달하는 효율적인 방법](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
 [![분산 시스템에서 데이터를 전달하는 효율적인 방법](https://github.com/JayFreemandev/Conference/assets/72185011/003c7374-db19-4636-886a-0c0acd067668)](https://www.youtube.com/watch?v=uk5fRLUsBfk)
 <hr>
 
-**[편안한 휴식 시간을 지켜줄 안정적인 백엔드 운영과 개발 기법](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
+**[편안한 휴식 시간을 지켜줄 안정적인 백엔드 운영과 개발 기법(GOAT)](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
 [![편안한 휴식 시간을 지켜줄 안정적인 백엔드 운영과 개발 기법](https://github.com/JayFreemandev/Conference/assets/72185011/9bc82ef2-560c-4522-b01a-ac68268e4446)](https://www.youtube.com/watch?v=2hCbY_mpqSgC)
 <hr>
 
@@ -70,11 +62,7 @@
 [![대규모 트래픽 글로벌 서비스는 어떻게 설계할까?](https://github.com/JayFreemandev/Conference/assets/72185011/2e13cfb1-7118-4bcb-965a-2a397c37355c)](https://www.youtube.com/watch?v=P0z14EJvnjE)
 <hr>
 
-**[LINE 오픈챗 서버가 100배 급증하는 트래픽을 다루는 방법](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
-[![LINE 오픈챗 서버가 100배 급증하는 트래픽을 다루는 방법](https://github.com/JayFreemandev/Conference/assets/72185011/5a3686d1-bf92-452a-858d-82490b87a1c4)](https://www.youtube.com/watch?v=L5ZjChLvd7U)
-<hr>
-
-**[배달의민족 마이크로서비스 여행기](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
+**[배달의민족 마이크로서비스 여행기(GOAT)](https://github.com/JayFreemandev/Conference/tree/main/Functional%20Programming)**  
 [![배달의민족 마이크로서비스 여행기](https://github.com/JayFreemandev/Conference/assets/72185011/126e3fc5-e2ee-4d53-8054-1e290d9c8c6f)](https://youtu.be/BnS6343GTkY)
 <hr>
 
@@ -83,6 +71,12 @@
 <hr>
 
 CAP 이론을 통한 네트워크 동기화 기법
+<hr>
+
+토스의 카프카 이중화
+<hr>
+
+수십억건 쿼리DSL 노하우
 <hr>
 
 ## 2022
