@@ -23,17 +23,17 @@
 
 단일 장애 포인트를 제거하라
 
-![Untitled 1.png](Untitled%201.png)
+![Untitled 1.png](Untitled 1.png)
 A - B - C 각 필요한 ID만 가지다 디테일한 정보는 A에게 조회를 요청한다고치면 A가 다운되면 B와 C도 그대로 멈추게된다.
 
 **비동기 큐 사용**
-![Untitled 2.png](Untitled%202.png)
+![Untitled 2.png](Untitled 2.png)
 
 만약 데이터 일관성이 민감한 로직이 아닌경우 장애가 발생해도 비동기로 큐에 담게된다. 주문처리 과정에서는 이런 방식을 채택했다.
 
 Fallback Cache
 
-![Untitled 3.png](Untitled%203.png)
+![Untitled 3.png](Untitled 3.png)
 장애 상황에서만 참고하는 캐시를 둬서 서비스 장애가 놔도 캐시 데이터를 사용해서 서비스를 이어간다. 100퍼센트 완벽한 방법은 아니다.
 
 **서비스 강한 결합의 위험**

@@ -36,7 +36,7 @@ JVM을 모른다면 CPU 늘려야된다고 생각할수도있는데 이럴때는
 5. 일단 서버 재시작
 
 **분당 Health Check**
-![Untitled 1.png](Untitled%201.png)
+![Untitled 1.png](Untitled 1.png)
 
 요런 느낌으로 재시작 스크립트 작성, 하지만 **JVM은 OOM에도 죽지않음**저 스크립트는 한번도 제대로 돌지 않게됬다..
 
@@ -46,18 +46,18 @@ JVM 실행 옵션에서 ExitOnOutOfMemoryError 옵션이 있어서 추가하면 
 
 첫번째 OOM이 나면 프로세스가 픽 죽는데 어떤 요청을 처리하다 죽었는지에 대한 로그가 남지가 않아서 원인 분석이 너무 어렵다. 옛날 옵션을 찾아봤는데 OnOutOfMemoryError를 사용해서
 
-![Untitled 2.png](Untitled%202.png)
+![Untitled 2.png](Untitled 2.png)
 OOM 발생시 로드밸런서에서 아웃시키고 충분히 로그가 남도록 30초 정도 기다리고 서버 다운을 시키고 크론탭에 의해서 재시작되는 좋은 느낌으로 해결
 
 **근데 OOM만 다루는걸로 충분한가?**
-![Untitled 3.png](Untitled%203.png)
+![Untitled 3.png](Untitled 3.png)
 
 주요 커넥션풀들 처리안되면 서버가 동작하지않는 이슈가 있어서 실용적으로 쿠버네티스의 라이브니스 프로브 기능을 참조하게됬다. 큐블렛이 상태를 지속적으로 체크하면서 문제 생기면 포드 삭제해버리고 레플리카 개수 유지하기위해 새로 등록해버리는데 이런 모습과 같다.
 
 **Actuator HealthCheck Endpoint**
 
 최종적인 모습을 위해 스프링 Actuator HealthCheck Endpoint를 사용했는데 주요 점검 기능은 Disk, DataSource, RabbitMQ, Redis등을 다 스프링에서 지원해준다.
-![Untitled 4.png](Untitled%204.png)
+![Untitled 4.png](Untitled 4.png)
 
 이거시 최종 배시의 모습. OOM을 보는게 아니라 actuator를 호출해서 200인지만 체크하고 아닐때 대응로직! 일시적인 장애는 익일 확인 후 대응가능하게 되었고 무중단 서비스 유지가 된다.
 
@@ -74,7 +74,7 @@ OOM 발생시 로드밸런서에서 아웃시키고 충분히 로그가 남도�
 
 **시나리오**
 
-![Untitled 5.png](Untitled%205.png)
+![Untitled 5.png](Untitled 5.png)
 계정관리 서버가 터지면 BE가 터진다. 두번째 백엔드 서버도 터지고 게이트웨이도 터진다..
 
 **지표의 측정(가시화)**
@@ -95,7 +95,7 @@ Spring Boot의 Actuator를 활용
 
 그중에서 Active 스레드수에서
 
-![Untitled 6.png](Untitled%206.png)
+![Untitled 6.png](Untitled 6.png)
 장애 시 톰캣의 스레드풀이 모두 소진되버렸다..
 
 **대응 방안**
@@ -122,21 +122,21 @@ Spring Boot의 Actuator를 활용
 
 **BackPressure 고려해서 수신거부해보자**
 
-![Untitled 7.png](Untitled%207.png)
+![Untitled 7.png](Untitled 7.png)
 Too Many Request 429 HTTP 상태코드를 이용해보자!
 
 구현은 쉬우나 서버의 처리량 TPS를 일정하게 제한되게 된다.
 
 **Active 스레드 비율**
 
-![Untitled 8.png](Untitled%208.png)
+![Untitled 8.png](Untitled 8.png)
 **스로틀링 클래스 예시**
 
-![Untitled 9.png](Untitled%209.png)
+![Untitled 9.png](Untitled 9.png)
 비율 85% 넘어가면 Too Busy 던지도록 할 수 있음
 
 **백엔드에서 HTTP Cache 활용**
-![Untitled 10.png](Untitled%2010.png)
+![Untitled 10.png](Untitled 10.png)
 
 Back to Back시 must revailidate 설정해야한다.
 
@@ -150,22 +150,22 @@ If None Match
 
 **시나리오**
 
-![Untitled 11.png](Untitled%2011.png)
-![Untitled 12.png](Untitled%2012.png)
+![Untitled 11.png](Untitled 11.png)
+![Untitled 12.png](Untitled 12.png)
 Etag보고 Response Body를 캐시해야겠구나
-![Untitled 13.png](Untitled%2013.png)
+![Untitled 13.png](Untitled 13.png)
 
 다시 요청할때 If none Math, Etag가 변경사항이 있으면 주세요. 만약 변경사항 없다면 304 body 없음으로 그냥 바로 리턴해준다.
 
 **스프링에서는 WebRequest**
 
-![Untitled 14.png](Untitled%2014.png)
+![Untitled 14.png](Untitled 14.png)
 만약 변경사항 없으면 나머지 비지니스로직 처리안하고 return null;
 
-![Untitled 15.png](Untitled%2015.png)
+![Untitled 15.png](Untitled 15.png)
 서버 메모리도 부족해서 인메모리는 못쓰고 EhCache라는거 썼음
 
-![Untitled 16.png](Untitled%2016.png)
+![Untitled 16.png](Untitled 16.png)
 확실히 13000개중 5000개는 캐시가 처리해서 서버 자원을 효율적 사용
 
 **주의**
@@ -178,10 +178,10 @@ API URL 외 인증 및 다른 정보로 데이터가 변경되는 경우 사용�
 
 TCP 소켓 서버를 쓰다가 OOM 발생하거나 성능이 느려진다.
 
-![Untitled 17.png](Untitled%2017.png)
+![Untitled 17.png](Untitled 17.png)
 네티 동작상 네트워크 문제가 생기면 카프카의 데드레터큐 쌓듯이 채널아웃바운드버퍼에 채널을 넣어버리는게 이게 가득 차버리면 OOM이 발생한다.
 
 스레드 슬립 10초를 주니 OOM없이 잘 진행됬는데 문제는 응답이 10초가 고정이 된다는것이다. 찾아보니 Channel.isWriteable()이 있는데 버퍼를 수영장으로 치면 물이 오버하면 잠궈버리고 물이 내려가면 벨브를 열어주는 기능을 제공한다.
 
-![Untitled 18.png](Untitled%2018.png)
+![Untitled 18.png](Untitled 18.png)
 성능 문제면 스레드 슬립을 쓰지않고 수영장 높낮이 설정이 가능함.

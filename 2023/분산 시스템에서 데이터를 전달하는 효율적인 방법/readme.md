@@ -67,13 +67,13 @@
 
 
 
-![Untitled 1.png](Untitled%201.png)
+![Untitled 1.png](Untitled 1.png)
 이런 상황이고 코드 예시는 아래와 같다.
 
-![Untitled 2.png](Untitled%202.png)
+![Untitled 2.png](Untitled 2.png)
 여기서 @Transactional을 살펴보자 AOP를 사용해서 프록시 객체를 생성해서 코드를 프록시 객체가 한번 감싼다.
 
-![Untitled 3.png](Untitled%203.png)
+![Untitled 3.png](Untitled 3.png)
 프록시가 다른 서비스를 호출하며 내 서비스는 DB에 저장을 할때 DB 트랜잭션에서 예외가 발생하거나 데드락이 발생한다면 롤백이 생기게된다. 이러면 REST API만 호출되는 상황이다.
 
 이런 경우는 **트랜잭션 커밋 이벤트**를 사용해야한다.
@@ -85,20 +85,20 @@
 
 첫번째는 스프링부트에서 제공하는 어노테이션을 이용하는것이고
 
-![Untitled 4.png](Untitled%204.png)
+![Untitled 4.png](Untitled 4.png)
 다 해결되느냐? 순서는 DB 트랜잭션 먼저 일어나고 REST API가 실패할수있다. 왜냐하면 네트워크는 믿을 수 없기 때문이다.
 
-![Untitled 5.png](Untitled%205.png)
+![Untitled 5.png](Untitled 5.png)
 이러면 저장해야하는 주요 데이터는 DB에 들어가있고 REST API 전파는 못하는 상황이 발생한다 이건 어떻게 하는가?
 
 **@TransactionalEventListner + @Retryable**
 
 이 Retryable이라는 메서드에다 정의를 해주면 실패했을때 재시도를할거다. 근데 이 재시도도 실패하면? 머리가 뜨거워진다.
 
-![Untitled 6.png](Untitled%206.png)
+![Untitled 6.png](Untitled 6.png)
 최대 3번시도를 할거고 리트라이 간격은 백오프를 100ms를 주겠다. 그래도 계속 실패할 수가있다. 네트워크는 믿을 수 없기 때문이다.
 
-![Untitled 7.png](Untitled%207.png)
+![Untitled 7.png](Untitled 7.png)
 만약 처리해야할 데이터와 이벤트가 굉장히 중요하다 한다면
 
 다음과 같은 패턴이 필수적이다.
@@ -111,14 +111,14 @@
 
 아웃박스 패턴으로 메세지 상태를 RDB에 박아넣고 배치같은걸로 주기적으로 이벤트를 폴링해서 API를 호출한다. 해당 패턴 사용시 메세지 저장때 필요한 테이블이 필요한데 중요한 4가지를 설명하겠다.
 
-![Untitled 8.png](Untitled%208.png)
+![Untitled 8.png](Untitled 8.png)
 event id는 이벤트 순서를 보장할 수 있는 값을 넣어줘야한다. 왜냐하면 이벤트가 발생하면 순서에 따라 처리해야하는 경우가 있는데 pk인 아이디에 기대면 성능이 좋아지고 편하다.
 
 두번째는 발생 시간을 적어줘야 컨슈머가 이벤트를 받을때 오래된 이벤트는 버릴 수 있다. 밀리세컨드나 나노세컨드까지 적어주면 정확도가 올라간다.
 
 해당 이벤트의 상태를 READY와 DONE 같은 상태 필드를 하나주고 메세지를 저장해야하는 페이로드가 필요하다.
 
-![Untitled 9.png](Untitled%209.png)
+![Untitled 9.png](Untitled 9.png)
 이후에 배치에서 publish 해주는곳도 보면 트랜잭션 어노테이션이 붙어있다. 이렇게 하면 REST API 환경에서 최소 한번을 구현할 수 있다. DB에서 꺼내고 API 호출 실패시 롤백시킨다.
 
 단점으로는 데이터베이스 비례한 처리속도와 데이터베이스 부하를 피할 수가없고 폴링과 퍼블리시 과정으로 인한 지연또한 추가 비용을 감수해야한다.
@@ -127,7 +127,7 @@ event id는 이벤트 순서를 보장할 수 있는 값을 넣어줘야한다. 
 
 **데드레터**
 
-![Untitled 10.png](Untitled%2010.png)
+![Untitled 10.png](Untitled 10.png)
 MQ 기준으로 큐에 가득 쌓여서 정상적으로 처리하지 못한 메세지를 데드레터로 넘겨 데드레터 큐로 넣어준다.
 
 1. 큐의 메세지가 ttl 넘었다
@@ -139,14 +139,14 @@ MQ 기준으로 큐에 가득 쌓여서 정상적으로 처리하지 못한 메�
 
 send 프로듀서 토픽과 함께 이벤트 발행
 
-![Untitled 11.png](Untitled%2011.png)
+![Untitled 11.png](Untitled 11.png)
 future callback은 success 와 fail 등록한다. 잘 등록된 메타정보를 기록.
 
-![Untitled 12.png](Untitled%2012.png)
+![Untitled 12.png](Untitled 12.png)
 onMessage라는 ACK메세지 리스너를 내려받는다.
 
-![Untitled 13.png](Untitled%2013.png)
+![Untitled 13.png](Untitled 13.png)
 ack를 받는다.
 
-![Untitled 14.png](Untitled%2014.png)
+![Untitled 14.png](Untitled 14.png)
 ack도 받겠다 auto commit config를 4번째 설정을 해줘야한다.
